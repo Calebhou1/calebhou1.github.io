@@ -1,6 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "./img/hou_logo.png";
 import profile from "./img/caleb_profile.png";
+
+import "./css/App.scss";
 
 function Home() {
   return (
@@ -19,16 +22,16 @@ function Home() {
 
         <ul>
           <li>
-            <a href="#">Disney</a>
+            <Link to="/disney">Disney</Link>
           </li>
           <li>
-            <a href="#">Best Buy</a>
+            <Link>Best Buy</Link>
           </li>
           <li>
-            <a href="#">Dungeon Highway</a>
+            <Link>Dungeon Highway</Link>
           </li>
           <li>
-            <a href="#">Miscellaneous</a>
+            <Link>Miscellaneous</Link>
           </li>
         </ul>
 

@@ -1,0 +1,45 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+
+// colors
+$black: #1e1e1e;
+$yellow: #faaf40;
+$light-gray: #cecece;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+// globals, resets
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+// components
+button, .button {
+  border: 2px solid;
+  padding: 13px 30px;
+  background-color: transparent;
+  color: white;
+  font-weight: $semi-bold;
+  font-size: 16px;
+  text-decoration: none;
+
+  &.button-yellow {
+    border-color: $yellow;
+  }
+
+  &.button-borderless {
+    border-color: transparent;
+  }
+}
+
