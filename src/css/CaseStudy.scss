@@ -1,0 +1,27 @@
+@import "./globals";
+
+.CaseStudy {
+  padding: 0 24px;
+  text-align: center;
+  background-color: $black;
+  color: white;
+}
+
+.CaseStudy__hero {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url("/disney.png");
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: $extra-bold;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: $bold;
+}

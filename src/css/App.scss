@@ -1,14 +1,4 @@
-// fonts
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
-$regular: 400;
-$semi-bold: 600;
-$bold: 700;
-$extra-bold: 800;
-
-// colors
-$black: #1e1e1e;
-$yellow: #faaf40;
-$light-gray: #cecece;
+@import "./globals.scss";
 
 body {
   font-family: 'Open Sans', sans-serif;
