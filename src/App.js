@@ -35,7 +35,7 @@ function App() {
 
         <p>To me, design is more than just pixels on a screen or lines on a paper. It's about making things that enable individuals, help them accomplish their goals, and make them smile along the way. If I can make even a single person crack a grin just by how enjoyable an experience was, I consider the effort worthwhile.</p>
 
-        <button className="button-yellow">GET IN TOUCH</button>
+        <a className="button button-yellow" href="mailto:calebhou1@gmail.com" target="_blank" rel="noopener noreferrer">GET IN TOUCH</a>
         <button className="button-borderless">DOWNLOAD RESUME</button>
       </section>
     </div>
