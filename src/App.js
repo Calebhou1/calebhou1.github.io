@@ -4,14 +4,14 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
+      <section className="hero">
+        <h4 className="titles">
           UX &middot; Interaction &middot; Visual &middot; Illustration
-        </p>
+        </h4>
 
-        <img src="/img/hou_logo.png" alt="HOU"/>
+        <img className="logo" src="/img/hou_logo.png" alt="HOU"/>
         <button>VIEW WORK</button>
-      </header>
+      </section>
     </div>
   );
 }

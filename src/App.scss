@@ -1,21 +1,45 @@
-.App {
-  text-align: center;
+// colors
+$black: #1e1e1e;
+$yellow: #faaf40;
+$light-gray: #cecece;
+
+* {
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
+section {
+  background-color: $black;
   min-height: 100vh;
+  padding: 50px 0;
+}
+
+.hero {
+  text-align: center;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.titles {
+  margin: 0;
+  color: $light-gray;
 }
+
+.logo {
+  max-width: 70vw;
+}
+
+button {
+  border: 2px solid $yellow;
+  padding: 13px 30px;
+  background-color: transparent;
+  color: white;
+}
+
 
 @keyframes App-logo-spin {
   from {
