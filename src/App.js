@@ -10,7 +10,7 @@ function App() {
         </h4>
 
         <img className="logo" src="/img/hou_logo.png" alt="HOU"/>
-        <button>VIEW WORK</button>
+        <button className="button-yellow">VIEW WORK</button>
       </section>
 
       <section className="my-work">
@@ -24,6 +24,19 @@ function App() {
         </ul>
 
         <button>ABOUT ME</button>
+      </section>
+
+      <section className="about-me">
+        <img className="profile-pic" src="/img/caleb_profile.png" alt="Photograph of Caleb Hou with yellow-crested cockatoo on shoulder"/>
+
+        <h2>ABOUT ME</h2>
+
+        <p>My favorite part of my job is figuring out problems and creating gorgeous solutions through design. Whether it's an app, website, or game, I'm always excited to jump in and help figure out the right approach.</p>
+
+        <p>To me, design is more than just pixels on a screen or lines on a paper. It's about making things that enable individuals, help them accomplish their goals, and make them smile along the way. If I can make even a single person crack a grin just by how enjoyable an experience was, I consider the effort worthwhile.</p>
+
+        <button className="button-yellow">GET IN TOUCH</button>
+        <button className="button-borderless">DOWNLOAD RESUME</button>
       </section>
     </div>
   );

@@ -19,6 +19,14 @@ button {
   padding: 13px 30px;
   background-color: transparent;
   color: white;
+
+  &.button-yellow {
+    border-color: $yellow;
+  }
+
+  &.button-borderless {
+    border-color: transparent;
+  }
 }
 
 // layout
@@ -39,12 +47,6 @@ section {
 }
 
 // specifics
-.hero {
-  button {
-    border-color: $yellow;
-  }
-}
-
 .titles {
   margin: 0;
   color: $light-gray;
@@ -72,4 +74,14 @@ section {
   button {
     border-color: white;
   }
+}
+
+.about-me {
+  h2 {
+    color: $yellow;
+  }
+}
+
+.profile-pic {
+  width: 250px;
 }
