@@ -5,16 +5,16 @@ function App() {
   return (
     <div className="App">
       <section className="hero">
-        <h4 className="titles">
+        <p className="titles">
           UX &middot; Interaction &middot; Visual &middot; Illustration
-        </h4>
+        </p>
 
         <img className="logo" src="/img/hou_logo.png" alt="HOU"/>
         <button className="button-yellow">VIEW WORK</button>
       </section>
 
       <section className="my-work">
-        <h2>MY WORK</h2>
+        <h2 className="sectionTitle">MY WORK</h2>
 
         <ul>
           <li><a href="#">Disney</a></li>
@@ -29,7 +29,7 @@ function App() {
       <section className="about-me">
         <img className="profile-pic" src="/img/caleb_profile.png" alt="Photograph of Caleb Hou with yellow-crested cockatoo on shoulder"/>
 
-        <h2>ABOUT ME</h2>
+        <h2 className="sectionTitle">ABOUT ME</h2>
 
         <p>My favorite part of my job is figuring out problems and creating gorgeous solutions through design. Whether it's an app, website, or game, I'm always excited to jump in and help figure out the right approach.</p>
 

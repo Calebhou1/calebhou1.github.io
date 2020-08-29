@@ -1,7 +1,18 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+
 // colors
 $black: #1e1e1e;
 $yellow: #faaf40;
 $light-gray: #cecece;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
 // globals, resets
 * {
@@ -19,6 +30,7 @@ button {
   padding: 13px 30px;
   background-color: transparent;
   color: white;
+  font-weight: $semi-bold;
 
   &.button-yellow {
     border-color: $yellow;
@@ -27,6 +39,11 @@ button {
   &.button-borderless {
     border-color: transparent;
   }
+}
+
+.sectionTitle {
+  font-weight: $bold;
+  font-size: 16px;
 }
 
 // layout
@@ -65,7 +82,7 @@ section {
 
   a {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: $extra-bold;
     color: white;
     opacity: .4;
     text-decoration: none;
