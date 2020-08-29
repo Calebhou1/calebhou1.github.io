@@ -3,17 +3,30 @@ $black: #1e1e1e;
 $yellow: #faaf40;
 $light-gray: #cecece;
 
+// globals, resets
 * {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+// components
+button {
+  border: 2px solid;
+  padding: 13px 30px;
+  background-color: transparent;
+  color: white;
+}
+
+// layout
 section {
   background-color: $black;
   min-height: 100vh;
-  padding: 50px 0;
-}
+  padding: 50px 30px;
 
-.hero {
   text-align: center;
 
   display: flex;
@@ -22,6 +35,14 @@ section {
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+
+}
+
+// specifics
+.hero {
+  button {
+    border-color: $yellow;
+  }
 }
 
 .titles {
@@ -33,19 +54,22 @@ section {
   max-width: 70vw;
 }
 
-button {
-  border: 2px solid $yellow;
-  padding: 13px 30px;
-  background-color: transparent;
-  color: white;
-}
+.my-work {
+  background-color: $yellow;
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  li {
+    margin-bottom: 30px;
   }
-  to {
-    transform: rotate(360deg);
+
+  a {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    opacity: .4;
+    text-decoration: none;
+  }
+
+  button {
+    border-color: white;
   }
 }
