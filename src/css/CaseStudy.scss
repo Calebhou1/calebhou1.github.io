@@ -1,27 +1,45 @@
 @import "./globals";
 
 .CaseStudy {
-  padding: 0 24px;
+  position: relative;
   text-align: center;
   background-color: $black;
   color: white;
 }
 
 .CaseStudy__hero {
-  height: 480px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  background-image: url("/disney.png");
+  background-position: top right;
+  background-size: cover;
+  background-image: url("/img/disney/background.png");
+}
+
+.CaseStudy__hero, .CaseStudy__content {
+  padding: 0 24px;
+}
+
+.CaseStudy__back {
+  position: absolute;
+  text-align: left;
+  top: 24px;
+
+  padding: 0;
+  border: none;
 }
 
 h1 {
   font-size: 40px;
   font-weight: $extra-bold;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 16px;
   font-weight: $bold;
+  margin-top: 0;
+  letter-spacing: 2px;
 }

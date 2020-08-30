@@ -7,12 +7,14 @@ const CaseStudy = ({ title, subtitle, children }) => {
   return (
     <div className="CaseStudy">
       <div className="CaseStudy__hero">
+        <button className="CaseStudy__back" onClick={history.goBack}>
+          BACK
+        </button>
         <h1>{title}</h1>
         <h2>{subtitle}</h2>
-        <button onClick={history.goBack}>BACK</button>
       </div>
 
-      {children}
+      <div className="CaseStudy__content">{children}</div>
     </div>
   );
 };
