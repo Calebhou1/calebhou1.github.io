@@ -51,22 +51,60 @@ const BestBuy = () => (
 
     <CaseStudySection title="Boards">
       <img
-        src="/img/disney/wire1.png"
-        alt="First wireframe mockup BestBuy website"
+        src="/img/bby/best buy - board1@2x.png"
+        alt="Whiteboard showing design process"
       />
       <img
-        src="/img/disney/wire2.png"
-        alt="Second wireframe mockup of BestBuy website"
-      />
-      <img
-        src="/img/disney/wire3.png"
-        alt="Third wireframe mockup of BestBuy website"
+        src="/img/bby/best buy - board2@2x.png"
+        alt="Second whiteboard showing design process"
       />
     </CaseStudySection>
 
     <CaseStudySection title="Comps">
-      <img src="/img/disney/comp1.png" alt="First comp of BestBuy website" />
-      <img src="/img/disney/comp2.png" alt="Second comp of BestBuy website" />
+      <img
+        src="/img/bby/best buy - comp1@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp2@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp3@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp4@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp5@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp6@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp7@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp8@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp9@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp10@2x.png"
+        alt="Comp of Best Buy website"
+      />
+      <img
+        src="/img/bby/best buy - comp11@2x.png"
+        alt="Comp of Best Buy website"
+      />
     </CaseStudySection>
   </CaseStudy>
 );
