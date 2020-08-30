@@ -10,7 +10,7 @@ const Miscellaneous = () => (
     device=<img
       className="CaseStudy__device CaseStudy__device-misc"
       src="/img/misc/device - miscellaneous@2x.png"
-      alt="Smartphone playing Dungeon Highway"
+      alt="Smartphone with Panda Express Webpage"
     />
     deviceStyle="CaseStudy__device-dh"
     background="/img/misc/header - miscellaneous@2x.png"
