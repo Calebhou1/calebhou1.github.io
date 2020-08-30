@@ -79,8 +79,34 @@
   font-weight: $semi-bold;
 }
 
-.CaseStudyStat__line {
+.CaseStudy__line {
   width: 55px;
   margin-left: 0;
   border: 2px solid $yellow;
+}
+
+.CaseStudySection {
+  position: relative;
+  margin: 80px 0;
+}
+
+.CaseStudySection__label {
+  position: absolute;
+  background-color: $black;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.CaseStudySection__title {
+  font-size: 32px;
+  font-weight: $extra-bold;
+  text-align: left;
+  margin: 0;
+}
+
+.CaseStudySection img {
+  width: 100%;
 }

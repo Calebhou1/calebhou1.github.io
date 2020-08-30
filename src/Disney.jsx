@@ -1,6 +1,7 @@
 import React from "react";
 import CaseStudy from "./components/CaseStudy";
 import CaseStudyStat from "./components/CaseStudyStat";
+import CaseStudySection from "./components/CaseStudySection";
 
 const Disney = () => (
   <CaseStudy
@@ -29,6 +30,13 @@ const Disney = () => (
       <CaseStudyStat label="DURATION" value="8 weeks" />
       <CaseStudyStat label="TEAM" value="3 Design, 4 Dev, 2 PM" />
     </div>
+
+    <CaseStudySection title="Sketch">
+      <img
+        src="/img/disney/sketch.png"
+        alt="Whiteboard sketch wireframe of Disney website"
+      />
+    </CaseStudySection>
   </CaseStudy>
 );
 
