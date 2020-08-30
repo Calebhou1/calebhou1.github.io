@@ -5,11 +5,12 @@ const Disney = () => (
   <CaseStudy
     title="Walt Disney World"
     subtitle="WEB REDESIGN"
-    // background_img
-    // hero img
+    device=<img
+      className="CaseStudy__device"
+      src="/img/disney/device.png"
+      alt="Laptop with Disney website on screen"
+    />
   >
-    blah de blah
-    <h3>SUMMARY</h3>
     <p>
       A website redesign for Walt Disney World. The current web experience is a
       smorgasbord of information that is aimed at no one in particular. This

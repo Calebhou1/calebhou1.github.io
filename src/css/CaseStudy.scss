@@ -1,7 +1,6 @@
 @import "./globals";
 
 .CaseStudy {
-  position: relative;
   text-align: center;
   background-color: $black;
   color: white;
@@ -19,6 +18,7 @@
 }
 
 .CaseStudy__hero, .CaseStudy__content {
+  position: relative;
   padding: 0 24px;
 }
 
@@ -31,6 +31,23 @@
   border: none;
 }
 
+.CaseStudy__device {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  transform: translate(10%, -50%);
+  width: 90%;
+}
+
+.CaseStudy__summary {
+  color: $yellow;
+  letter-spacing: 2;
+  font-size: 16px;
+  font-weight: $semi-bold;
+  padding-top: 180px;
+}
+
 h1 {
   font-size: 40px;
   font-weight: $extra-bold;
@@ -41,5 +58,4 @@ h2 {
   font-size: 16px;
   font-weight: $bold;
   margin-top: 0;
-  letter-spacing: 2px;
 }

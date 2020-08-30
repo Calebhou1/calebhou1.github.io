@@ -2,7 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import "../css/CaseStudy.scss";
 
-const CaseStudy = ({ title, subtitle, children }) => {
+const CaseStudy = ({ title, subtitle, device, children }) => {
   let history = useHistory();
   return (
     <div className="CaseStudy">
@@ -14,7 +14,11 @@ const CaseStudy = ({ title, subtitle, children }) => {
         <h2>{subtitle}</h2>
       </div>
 
-      <div className="CaseStudy__content">{children}</div>
+      <div className="CaseStudy__content">
+        {device}
+        <h3 className="CaseStudy__summary">SUMMARY</h3>
+        {children}
+      </div>
     </div>
   );
 };
