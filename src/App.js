@@ -6,10 +6,12 @@ import Disney from "./Disney";
 import BestBuy from "./BestBuy";
 import DungeonHighway from "./DungeonHighway";
 import Miscellaneous from "./Miscellaneous";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route exact path="/">
           <Home />
