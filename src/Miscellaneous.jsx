@@ -33,10 +33,8 @@ const Miscellaneous = () => (
       src="/img/misc/miscellaneous - 2@2x.png"
       alt="Panda Express Order Page "
     />
-    <img
-      className="CaseStudy__image"
-      src="/img/misc/miscellaneous - 3@2x.png"
-    />
+    <img className="CaseStudy__image" src="/img/misc/floating-laptop.gif" />
+
     <img
       className="CaseStudy__image"
       src="/img/misc/miscellaneous - 4@2x.png"
