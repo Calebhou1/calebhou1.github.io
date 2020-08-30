@@ -7,6 +7,8 @@ const Disney = () => (
   <CaseStudy
     title="Walt Disney World"
     subtitle="WEB REDESIGN"
+    background="/img/disney/background.png"
+    backgroundStyle="CaseStudy__hero-disney"
     device=<img
       className="CaseStudy__device"
       src="/img/disney/device.png"

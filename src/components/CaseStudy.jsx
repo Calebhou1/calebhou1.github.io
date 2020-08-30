@@ -2,11 +2,21 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import "../css/CaseStudy.scss";
 
-const CaseStudy = ({ title, subtitle, device, children }) => {
+const CaseStudy = ({
+  title,
+  subtitle,
+  device,
+  background,
+  backgroundStyle,
+  children
+}) => {
   let history = useHistory();
   return (
     <div className="CaseStudy">
-      <div className="CaseStudy__hero">
+      <div
+        className={"CaseStudy__hero " + backgroundStyle}
+        style={{ backgroundImage: `url("${background}")` }}
+      >
         <button className="CaseStudy__back" onClick={history.goBack}>
           BACK
         </button>

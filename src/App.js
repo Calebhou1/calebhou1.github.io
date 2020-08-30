@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./Home";
 import Disney from "./Disney";
+import BestBuy from "./BestBuy";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         </Route>
         <Route exact path="/disney">
           <Disney />
+        </Route>
+        <Route exact path="/bestbuy">
+          <BestBuy />
         </Route>
         <Route exact path="/users">
           case study
