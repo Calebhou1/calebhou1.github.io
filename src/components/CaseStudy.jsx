@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../css/CaseStudy.scss";
 
 const CaseStudy = ({
@@ -10,16 +10,15 @@ const CaseStudy = ({
   backgroundStyle,
   children
 }) => {
-  let history = useHistory();
   return (
     <div className="CaseStudy">
       <div
         className={"CaseStudy__hero " + backgroundStyle}
         style={{ backgroundImage: `url("${background}")` }}
       >
-        <button className="CaseStudy__back" onClick={history.goBack}>
+        <Link to="/" className="CaseStudy__back">
           BACK
-        </button>
+        </Link>
         <h1>{title}</h1>
         <h2>{subtitle}</h2>
       </div>
