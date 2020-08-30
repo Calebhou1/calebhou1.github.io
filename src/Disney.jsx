@@ -1,5 +1,6 @@
 import React from "react";
 import CaseStudy from "./components/CaseStudy";
+import CaseStudyStat from "./components/CaseStudyStat";
 
 const Disney = () => (
   <CaseStudy
@@ -22,16 +23,12 @@ const Disney = () => (
       problem case and provide validation.
     </p>
     <p>For more information, please get in touch.</p>
-    <dl>
-      <dt>MY ROLE</dt>
-      <dd>UX design, Visual design</dd>
 
-      <dt>DURATION</dt>
-      <dd>8 weeks</dd>
-
-      <dt>TEAM</dt>
-      <dd>3 Design, 4 Dev, 2 PM</dd>
-    </dl>
+    <div className="CaseStudy__stats">
+      <CaseStudyStat label="MY ROLE" value="UX design, Visual design" />
+      <CaseStudyStat label="DURATION" value="8 weeks" />
+      <CaseStudyStat label="TEAM" value="3 Design, 4 Dev, 2 PM" />
+    </div>
   </CaseStudy>
 );
 

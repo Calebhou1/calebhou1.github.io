@@ -15,7 +15,20 @@
   background-position: top right;
   background-size: cover;
   background-image: url("/img/disney/background.png");
+
+  h1 {
+    font-size: 40px;
+    font-weight: $extra-bold;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: $bold;
+    margin-top: 0;
+  }
 }
+
 
 .CaseStudy__hero, .CaseStudy__content {
   position: relative;
@@ -48,14 +61,26 @@
   padding-top: 180px;
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: $extra-bold;
-  margin-bottom: 10px;
+.CaseStudy__stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
-h2 {
-  font-size: 16px;
-  font-weight: $bold;
-  margin-top: 0;
+.CaseStudyStat {
+  text-align: left;
+  width: 120px;
+  margin-bottom: 40px;
+}
+
+.CaseStudyStat__label {
+  color: $yellow;
+  font-weight: $semi-bold;
+}
+
+.CaseStudyStat__line {
+  width: 55px;
+  margin-left: 0;
+  border: 2px solid $yellow;
 }
