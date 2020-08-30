@@ -62,7 +62,7 @@ const BestBuy = () => (
 
     <CaseStudySection title="Wires">
       <img src="/img/bby/AR wire Copy 2.png" />
-      <img src="/img/bby/AR Wire.png" />
+      <img src="/img/bby/AR wire.png" />
       <img src="/img/bby/best buy - wire1.png" />
       <img src="/img/bby/best buy - wire2.png" />
       <img src="/img/bby/best buy - wire3.png" />
