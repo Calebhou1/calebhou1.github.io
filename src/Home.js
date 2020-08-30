@@ -28,7 +28,7 @@ function Home() {
             <Link to="/bestbuy">Best Buy</Link>
           </li>
           <li>
-            <Link>Dungeon Highway</Link>
+            <Link to="/dungeon-highway">Dungeon Highway</Link>
           </li>
           <li>
             <Link>Miscellaneous</Link>
