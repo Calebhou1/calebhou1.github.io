@@ -70,7 +70,9 @@ function Home() {
         >
           GET IN TOUCH
         </a>
-        <button className="button-borderless">DOWNLOAD RESUME</button>
+        <a className="button button-borderless" href="/Caleb_resume_2020.pdf">
+          DOWNLOAD RESUME
+        </a>
       </section>
     </div>
   );
