@@ -8,7 +8,7 @@ const DungeonHighway = () => (
     title="Dungeon Highway"
     subtitle="VIDEO GAME"
     device=<img
-      className="CaseStudy__device CaseStudy__device-dh"
+      className="CaseStudy__device"
       src="/img/dh/device - dungeon highway@2x.png"
       alt="Smartphone playing Dungeon Highway"
     />

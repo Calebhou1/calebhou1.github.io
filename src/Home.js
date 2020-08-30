@@ -31,7 +31,7 @@ function Home() {
             <Link to="/dungeon-highway">Dungeon Highway</Link>
           </li>
           <li>
-            <Link>Miscellaneous</Link>
+            <Link to="/miscellaneous">Miscellaneous</Link>
           </li>
         </ul>
 

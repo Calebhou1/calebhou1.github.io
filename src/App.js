@@ -5,6 +5,7 @@ import Home from "./Home";
 import Disney from "./Disney";
 import BestBuy from "./BestBuy";
 import DungeonHighway from "./DungeonHighway";
+import Miscellaneous from "./Miscellaneous";
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
         <Route exact path="/dungeon-highway">
           <DungeonHighway />
         </Route>
-        <Route exact path="/users">
-          case study
+        <Route exact path="/miscellaneous">
+          <Miscellaneous />
         </Route>
       </Switch>
     </Router>
