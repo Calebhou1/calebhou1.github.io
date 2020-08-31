@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import logo from "./img/hou_logo.png";
 import profile from "./img/caleb_profile.png";
 
 import "./css/App.scss";
 
-function Home() {
+const Home = () => {
+  const myWorkRef = useRef(null);
+  const aboutMeRef = useRef(null);
+
+  const scrollTo = ref => {
+    window.scrollTo(0, ref.current.offsetTop);
+  };
+
   return (
     <div className="Home">
       <section className="hero">
@@ -14,10 +21,12 @@ function Home() {
         </p>
 
         <img className="logo" src={logo} alt="HOU" />
-        <button className="button-yellow">VIEW WORK</button>
+        <button className="button-yellow" onClick={() => scrollTo(myWorkRef)}>
+          VIEW WORK
+        </button>
       </section>
 
-      <section className="my-work">
+      <section className="my-work" ref={myWorkRef}>
         <h2 className="sectionTitle">MY WORK</h2>
 
         <ul>
@@ -35,10 +44,10 @@ function Home() {
           </li>
         </ul>
 
-        <button>ABOUT ME</button>
+        <button onClick={() => scrollTo(aboutMeRef)}>ABOUT ME</button>
       </section>
 
-      <section className="about-me">
+      <section className="about-me" ref={aboutMeRef}>
         <img
           className="profile-pic"
           src={profile}
@@ -81,6 +90,6 @@ function Home() {
       </section>
     </div>
   );
-}
+};
 
 export default Home;
