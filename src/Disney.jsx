@@ -1,4 +1,5 @@
 import React from "react";
+import Bricks from "./components/Bricks";
 import CaseStudy from "./components/CaseStudy";
 import CaseStudyStat from "./components/CaseStudyStat";
 import CaseStudySection from "./components/CaseStudySection";
@@ -41,23 +42,27 @@ const Disney = () => (
     </CaseStudySection>
 
     <CaseStudySection title="Wires">
-      <img
-        src="/img/disney/wire1.png"
-        alt="First wireframe mockup Disney website"
-      />
-      <img
-        src="/img/disney/wire2.png"
-        alt="Second wireframe mockup of Disney website"
-      />
-      <img
-        src="/img/disney/wire3.png"
-        alt="Third wireframe mockup of Disney website"
-      />
+      <Bricks>
+        <img
+          src="/img/disney/wire1.png"
+          alt="First wireframe mockup Disney website"
+        />
+        <img
+          src="/img/disney/wire2.png"
+          alt="Second wireframe mockup of Disney website"
+        />
+        <img
+          src="/img/disney/wire3.png"
+          alt="Third wireframe mockup of Disney website"
+        />
+      </Bricks>
     </CaseStudySection>
 
     <CaseStudySection title="Comps">
-      <img src="/img/disney/comp1.png" alt="First comp of Disney website" />
-      <img src="/img/disney/comp2.png" alt="Second comp of Disney website" />
+      <Bricks>
+        <img src="/img/disney/comp1.png" alt="First comp of Disney website" />
+        <img src="/img/disney/comp2.png" alt="Second comp of Disney website" />
+      </Bricks>
     </CaseStudySection>
   </CaseStudy>
 );

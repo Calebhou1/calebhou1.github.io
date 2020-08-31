@@ -1,4 +1,5 @@
 import React from "react";
+import Bricks from "./components/Bricks";
 import CaseStudy from "./components/CaseStudy";
 import CaseStudyStat from "./components/CaseStudyStat";
 import CaseStudySection from "./components/CaseStudySection";
@@ -61,58 +62,62 @@ const BestBuy = () => (
     </CaseStudySection>
 
     <CaseStudySection title="Wires">
-      <img src="/img/bby/AR wire Copy 2.png" />
-      <img src="/img/bby/AR wire.png" />
-      <img src="/img/bby/best buy - wire1.png" />
-      <img src="/img/bby/best buy - wire2.png" />
-      <img src="/img/bby/best buy - wire3.png" />
+      <Bricks desktopCols={3}>
+        <img src="/img/bby/AR wire Copy 2.png" />
+        <img src="/img/bby/AR wire.png" />
+        <img src="/img/bby/best buy - wire1.png" />
+        <img src="/img/bby/best buy - wire2.png" />
+        <img src="/img/bby/best buy - wire3.png" />
+      </Bricks>
     </CaseStudySection>
 
     <CaseStudySection title="Comps">
-      <img
-        src="/img/bby/best buy - comp1@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp2@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp3@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp4@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp5@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp6@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp7@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp8@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp9@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp10@2x.png"
-        alt="Comp of Best Buy website"
-      />
-      <img
-        src="/img/bby/best buy - comp11@2x.png"
-        alt="Comp of Best Buy website"
-      />
+      <Bricks desktopCols={3}>
+        <img
+          src="/img/bby/best buy - comp1@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp2@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp3@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp4@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp5@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp6@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp7@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp8@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp9@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp10@2x.png"
+          alt="Comp of Best Buy website"
+        />
+        <img
+          src="/img/bby/best buy - comp11@2x.png"
+          alt="Comp of Best Buy website"
+        />
+      </Bricks>
     </CaseStudySection>
   </CaseStudy>
 );

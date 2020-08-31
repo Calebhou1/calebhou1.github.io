@@ -28,15 +28,16 @@ const DungeonHighway = () => (
       <CaseStudyStat label="TEAM" value="1 Designer, 2 Developers, 1 PM" />
     </div>
 
-    <iframe
-      title="Dungeon Highway Steam Gameplay Trailer"
-      src="https://www.youtube.com/embed/m0ZawwCwSKI"
-      className="CaseStudy__image"
-      height="200"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <div className="video-container">
+      <iframe
+        title="Dungeon Highway Steam Gameplay Trailer"
+        src="https://www.youtube.com/embed/m0ZawwCwSKI"
+        className="CaseStudy__video"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
 
     <CaseStudySection title="Wire">
       <img
