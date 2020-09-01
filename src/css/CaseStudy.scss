@@ -18,8 +18,9 @@ $CASE_STUDY_WIDTH: 1080px;
     letter-spacing: 0;
     font-size: 36px;
     font-weight: $extra-bold;
-    padding-top: 50px;
+    padding-top: 180px;
     margin-bottom: 10px;
+    margin-top: 0;
 
     @media only screen and (min-width: 768px) {
       font-size: 100px;
@@ -43,16 +44,13 @@ $CASE_STUDY_WIDTH: 1080px;
 
 .CaseStudy__hero, .CaseStudy__content {
   padding: 0 44px;
-}
-
-.CaseStudy__content {
   position: relative;
 }
 
 .CaseStudy__back {
   padding: 24px 0 0;
   border: none;
-  display: block;
+  float: left;
   text-align: left;
 
   color: white;
