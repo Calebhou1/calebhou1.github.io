@@ -10,17 +10,20 @@ $CASE_STUDY_WIDTH: 1080px;
 
 .CaseStudy__hero {
   height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
   background-position: top center;
   background-size: cover;
 
   h1 {
-    font-size: 32px;
+    letter-spacing: 0;
+    font-size: 36px;
     font-weight: $extra-bold;
+    padding-top: 50px;
     margin-bottom: 10px;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 100px;
+    }
   }
 
   h2 {
@@ -34,23 +37,24 @@ $CASE_STUDY_WIDTH: 1080px;
   background-position: bottom right;
 }
 
-
 .CaseStudy__hero, .CaseStudy__content {
-  position: relative;
   padding: 0 44px;
 }
 
-.CaseStudy__back {
-  position: absolute;
-  text-align: left;
-  top: 24px;
+.CaseStudy__content {
+  position: relative;
+}
 
-  padding: 0;
+.CaseStudy__back {
+  padding: 24px 0 0;
   border: none;
+  display: block;
+  text-align: left;
 
   color: white;
   text-decoration: none;
   font-weight: $bold;
+  letter-spacing: 2px;
 }
 
 .CaseStudy__device {
