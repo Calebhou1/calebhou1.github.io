@@ -18,7 +18,7 @@ $CASE_STUDY_WIDTH: 1080px;
   background-size: cover;
 
   h1 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: $extra-bold;
     margin-bottom: 10px;
   }
@@ -37,7 +37,7 @@ $CASE_STUDY_WIDTH: 1080px;
 
 .CaseStudy__hero, .CaseStudy__content {
   position: relative;
-  padding: 0 24px;
+  padding: 0 44px;
 }
 
 .CaseStudy__back {
@@ -119,32 +119,27 @@ $CASE_STUDY_WIDTH: 1080px;
   margin: 80px auto;
   max-width: $CASE_STUDY_WIDTH;
 
-  @media only screen and (min-width: 768px) {
-    .CaseStudy__line {
-      box-shadow: 2px 2px 4px black;
-    }
+  .CaseStudy__line {
+    box-shadow: 2px 2px 8px #222;
   }
 }
 
 .CaseStudySection__label {
   position: absolute;
-  background-color: $black;
   padding-bottom: 10px;
   padding-right: 20px;
   top: 0;
   left: 0;
-  transform: translateY(-50%);
 
-  @media only screen and (min-width: 768px) {
-    transform: translate(-20px, -30%);
-    text-shadow: 2px 2px 4px black;
-    background: transparent;
-  }
+  transform: translate(-20px, -30%);
+  text-shadow: 2px 2px 8px #222;
+  background: transparent;
 }
 
 .CaseStudySection__title {
   font-size: 32px;
   font-weight: $extra-bold;
+  letter-spacing: 0;
   text-align: left;
   margin: 0;
 }

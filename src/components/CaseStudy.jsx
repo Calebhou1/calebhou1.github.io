@@ -16,7 +16,7 @@ const CaseStudy = ({
         className={"CaseStudy__hero " + backgroundStyle}
         style={{ backgroundImage: `url("${background}")` }}
       >
-        <Link to="/" className="CaseStudy__back">
+        <Link to="/" className="CaseStudy__back button">
           BACK
         </Link>
         <h1>{title}</h1>
