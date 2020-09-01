@@ -27,9 +27,9 @@ const Home = () => {
       </section>
 
       <section className="my-work" ref={myWorkRef}>
-        <h2 className="sectionTitle">MY WORK</h2>
 
         <ul>
+          <h2 className="sectionTitle">MY WORK</h2>
           <li>
             <Link to="/disney">Disney</Link>
           </li>

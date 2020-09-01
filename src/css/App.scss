@@ -63,6 +63,9 @@ section {
   font-size: calc(10px + 2vmin);
   color: white;
 
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 80px;
+  }
 }
 
 // specifics
@@ -79,6 +82,8 @@ section {
 
 .my-work {
   background-color: $yellow;
+  justify-content: center;
+  position: relative;
 
   li {
     margin-bottom: 30px;
@@ -90,6 +95,10 @@ section {
     color: white;
     opacity: .4;
     text-decoration: none;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 100px;
+    }
   }
 
   a:hover {
@@ -98,6 +107,12 @@ section {
 
   button {
     border-color: white;
+    position: absolute;
+    bottom: 50px;
+
+    @media only screen and (min-width: 768px) {
+      bottom: 80px;
+    }
   }
 }
 
