@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CaseStudy from "./components/CaseStudy";
-import CaseStudyStat from "./components/CaseStudyStat";
-import CaseStudySection from "./components/CaseStudySection";
 
 export default () => (
   <div className="CaseStudy">
