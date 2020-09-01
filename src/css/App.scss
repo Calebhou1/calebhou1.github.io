@@ -4,6 +4,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  font-size: 16px;
+}
+
 // globals, resets
 * {
   box-sizing: border-box;
@@ -65,7 +69,6 @@ section {
 .titles {
   margin: 0;
   color: $light-gray;
-  font-size: 16px;
   font-weight: $semi-bold;
   letter-spacing: 2px;
 }
@@ -101,6 +104,10 @@ section {
 .about-me {
   h2 {
     color: $yellow;
+  }
+
+  p {
+    max-width: 600px;
   }
 }
 
