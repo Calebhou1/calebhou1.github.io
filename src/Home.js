@@ -17,7 +17,7 @@ const Home = () => {
     <div className="Home">
       <section className="hero">
         <p className="titles">
-          UX &middot; Interaction &middot; Visual &middot; Illustration
+          UX &middot; INTERACTION &middot; VISUAL &middot; ILLUSTRATION
         </p>
 
         <img className="logo" src={logo} alt="HOU" />
@@ -27,9 +27,9 @@ const Home = () => {
       </section>
 
       <section className="my-work" ref={myWorkRef}>
-        <h2 className="sectionTitle">MY WORK</h2>
 
         <ul>
+          <h2 className="sectionTitle">MY WORK</h2>
           <li>
             <Link to="/disney">Disney</Link>
           </li>
@@ -71,22 +71,24 @@ const Home = () => {
           experience was, I consider the effort worthwhile.
         </p>
 
-        <a
-          className="button button-yellow"
-          href="mailto:calebhou1@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GET IN TOUCH
-        </a>
-        <a
-          className="button button-borderless"
-          href="/Caleb_resume_2020.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          DOWNLOAD RESUME
-        </a>
+        <div className="contactLinks">
+          <a
+            className="button button-yellow"
+            href="mailto:calebhou1@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GET IN TOUCH
+          </a>
+          <a
+            className="download button button-borderless"
+            href="/Caleb_resume_2020.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DOWNLOAD RESUME
+          </a>
+        </div>
       </section>
     </div>
   );

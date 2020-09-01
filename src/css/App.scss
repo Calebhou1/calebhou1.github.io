@@ -4,9 +4,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  font-size: 16px;
+}
+
 // globals, resets
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 2px;
 }
 
 ul {
@@ -22,6 +30,7 @@ button, .button {
   color: white;
   font-weight: $semi-bold;
   font-size: 16px;
+  letter-spacing: 2px;
   text-decoration: none;
 
   &.button-yellow {
@@ -47,19 +56,27 @@ section {
 
   text-align: center;
 
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 80px;
+  }
+}
+
+// specifics
+.hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: white;
-
 }
 
-// specifics
 .titles {
   margin: 0;
   color: $light-gray;
+  font-weight: $semi-bold;
+  letter-spacing: 2px;
 }
 
 .logo {
@@ -68,6 +85,8 @@ section {
 
 .my-work {
   background-color: $yellow;
+  justify-content: center;
+  position: relative;
 
   li {
     margin-bottom: 30px;
@@ -79,6 +98,10 @@ section {
     color: white;
     opacity: .4;
     text-decoration: none;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 100px;
+    }
   }
 
   a:hover {
@@ -87,6 +110,14 @@ section {
 
   button {
     border-color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media only screen and (min-width: 768px) {
+      bottom: 80px;
+    }
   }
 }
 
@@ -94,8 +125,30 @@ section {
   h2 {
     color: $yellow;
   }
+
+  p {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  a {
+    width: 220px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+
+  a.download {
+    width: 300px;
+  }
+}
+
+.contactLinks {
+  margin-top: 60px;
 }
 
 .profile-pic {
-  width: 250px;
+  max-width: 420px;
+  width: 90%;
+  margin-bottom: 20px;
 }

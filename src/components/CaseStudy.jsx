@@ -8,6 +8,7 @@ const CaseStudy = ({
   device,
   background,
   backgroundStyle,
+  summaryStyle,
   children
 }) => {
   return (
@@ -16,7 +17,7 @@ const CaseStudy = ({
         className={"CaseStudy__hero " + backgroundStyle}
         style={{ backgroundImage: `url("${background}")` }}
       >
-        <Link to="/" className="CaseStudy__back">
+        <Link to="/" className="CaseStudy__back button">
           BACK
         </Link>
         <h1>{title}</h1>
@@ -25,7 +26,7 @@ const CaseStudy = ({
 
       <div className="CaseStudy__content">
         {device}
-        <h3 className="CaseStudy__summary">SUMMARY</h3>
+        <h3 className={"CaseStudy__summary " + summaryStyle}>SUMMARY</h3>
         {children}
       </div>
     </div>
