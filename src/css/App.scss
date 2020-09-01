@@ -85,12 +85,10 @@ section {
 
 .my-work {
   background-color: $yellow;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   position: relative;
-
-  li {
-    margin-bottom: 30px;
-  }
 
   a {
     font-size: 40px;
@@ -100,7 +98,7 @@ section {
     text-decoration: none;
 
     @media only screen and (min-width: 768px) {
-      font-size: 100px;
+      font-size: 90px;
     }
   }
 
