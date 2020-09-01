@@ -8,6 +8,7 @@ const CaseStudy = ({
   device,
   background,
   backgroundStyle,
+  summaryStyle,
   children
 }) => {
   return (
@@ -25,7 +26,7 @@ const CaseStudy = ({
 
       <div className="CaseStudy__content">
         {device}
-        <h3 className="CaseStudy__summary">SUMMARY</h3>
+        <h3 className={"CaseStudy__summary " + summaryStyle}>SUMMARY</h3>
         {children}
       </div>
     </div>

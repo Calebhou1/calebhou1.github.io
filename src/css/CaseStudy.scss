@@ -79,7 +79,15 @@ $CASE_STUDY_WIDTH: 1080px;
   padding-top: 180px;
 
   @media only screen and (min-width: 768px) {
-    padding-top: 280px;
+    padding-top: 320px;
+  }
+}
+
+.CaseStudy__summary-dh {
+  padding-top: 120px;
+
+  @media only screen and (min-width: 768px) {
+    padding-top: 200px;
   }
 }
 

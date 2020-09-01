@@ -13,6 +13,7 @@ const DungeonHighway = () => (
       alt="Smartphone playing Dungeon Highway"
     />
     deviceStyle="CaseStudy__device-dh"
+    summaryStyle="CaseStudy__summary-dh"
     background="/img/dh/background.png"
   >
     <p>
