@@ -71,22 +71,24 @@ const Home = () => {
           experience was, I consider the effort worthwhile.
         </p>
 
-        <a
-          className="button button-yellow"
-          href="mailto:calebhou1@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GET IN TOUCH
-        </a>
-        <a
-          className="button button-borderless"
-          href="/Caleb_resume_2020.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          DOWNLOAD RESUME
-        </a>
+        <div className="contactLinks">
+          <a
+            className="button button-yellow"
+            href="mailto:calebhou1@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GET IN TOUCH
+          </a>
+          <a
+            className="download button button-borderless"
+            href="/Caleb_resume_2020.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DOWNLOAD RESUME
+          </a>
+        </div>
       </section>
     </div>
   );
