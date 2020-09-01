@@ -34,6 +34,14 @@ const Disney = () => (
       <CaseStudyStat label="TEAM" value="3 Design, 4 Dev, 2 PM" />
     </div>
 
+
+    <CaseStudySection title="Workshop">
+      <img
+        src="/img/disney/disney - workshop.png"
+        alt="Photograph of XD Workshop with two people with sticky notes on board"
+      />
+    </CaseStudySection>
+
     <CaseStudySection title="Sketch">
       <img
         src="/img/disney/sketch.png"
