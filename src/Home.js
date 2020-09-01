@@ -17,7 +17,7 @@ const Home = () => {
     <div className="Home">
       <section className="hero">
         <p className="titles">
-          UX &middot; Interaction &middot; Visual &middot; Illustration
+          UX &middot; INTERACTION &middot; VISUAL &middot; ILLUSTRATION
         </p>
 
         <img className="logo" src={logo} alt="HOU" />
