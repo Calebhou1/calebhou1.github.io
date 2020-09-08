@@ -37,6 +37,13 @@ svg {
   transition: 1s ease-in-out;
 }
 
+svg.yellowStroke {
+  stroke: #d59638;
+  stroke-width: 2px;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+}
+
 .btn:hover {
   transition: 1s ease-in-out;
 }

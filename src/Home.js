@@ -90,6 +90,7 @@ const Home = () => {
 
         <FancyButton
           containerClass="buttonContainer"
+          svgClass="yellowStroke"
           onClick={() => scrollTo(aboutMeRef)}
         >
           ABOUT ME
