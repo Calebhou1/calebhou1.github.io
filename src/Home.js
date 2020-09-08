@@ -9,11 +9,12 @@ import FancyLink from "./components/FancyLink.jsx";
 import "./css/App.scss";
 
 const Home = () => {
+  const homeRef = useRef(null);
   const myWorkRef = useRef(null);
   const aboutMeRef = useRef(null);
 
   const scrollTo = (ref) => {
-    window.scrollTo(0, ref.current.offsetTop);
+    homeRef.current.scrollTo(0, ref.current.offsetTop);
   };
 
   const [bg, setBg] = useState("");
@@ -31,7 +32,7 @@ const Home = () => {
   };
 
   return (
-    <div className="Home">
+    <div className="Home" ref={homeRef}>
       <section className="hero">
         <p className="titles">
           UX &middot; INTERACTION &middot; VISUAL &middot; ILLUSTRATION
