@@ -67,6 +67,7 @@ section {
 // specifics
 .hero {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -106,8 +107,7 @@ section {
     opacity: 1;
   }
 
-  button {
-    border-color: white;
+  .buttonContainer {
     position: absolute;
     bottom: 50px;
     left: 50%;
@@ -145,20 +145,18 @@ section {
     margin: 20px auto;
   }
 
-  a {
-    width: 220px;
-    display: block;
-    margin: 20px auto;
-    cursor: pointer;
-  }
-
   a.download {
     width: 300px;
   }
 }
 
 .contactLinks {
-  margin-top: 60px;
+  margin-top: 100px;
+}
+
+.contactContainer {
+  position: relative;
+  height: 60px;
 }
 
 .profile-pic {

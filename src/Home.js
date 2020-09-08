@@ -1,8 +1,10 @@
 import React, { useRef, useState } from "react";
-import cx from 'classnames';
+import cx from "classnames";
 import { Link } from "react-router-dom";
 import logo from "./img/hou_logo.png";
 import profile from "./img/caleb_profile.png";
+import FancyButton from "./components/FancyButton.jsx";
+import FancyLink from "./components/FancyLink.jsx";
 
 import "./css/App.scss";
 
@@ -10,7 +12,7 @@ const Home = () => {
   const myWorkRef = useRef(null);
   const aboutMeRef = useRef(null);
 
-  const scrollTo = ref => {
+  const scrollTo = (ref) => {
     window.scrollTo(0, ref.current.offsetTop);
   };
 
@@ -20,7 +22,7 @@ const Home = () => {
     return (e) => {
       e.preventDefault();
       setBg(bgClass);
-    }
+    };
   };
 
   const clearBackground = (e) => {
@@ -36,30 +38,61 @@ const Home = () => {
         </p>
 
         <img className="logo" src={logo} alt="HOU" />
-        <button className="button-yellow" onClick={() => scrollTo(myWorkRef)}>
+        <FancyButton
+          className="button-yellow"
+          onClick={() => scrollTo(myWorkRef)}
+        >
           VIEW WORK
-        </button>
+        </FancyButton>
       </section>
 
       <section className={cx("my-work", bg)} ref={myWorkRef}>
-
         <ul>
           <h2 className="sectionTitle">MY WORK</h2>
           <li>
-            <Link onMouseEnter={changeBackground("disney")} onMouseLeave={clearBackground} to="/disney">Disney</Link>
+            <Link
+              onMouseEnter={changeBackground("disney")}
+              onMouseLeave={clearBackground}
+              to="/disney"
+            >
+              Disney
+            </Link>
           </li>
           <li>
-            <Link onMouseEnter={changeBackground("bby")} onMouseLeave={clearBackground} to="/bestbuy">Best Buy</Link>
+            <Link
+              onMouseEnter={changeBackground("bby")}
+              onMouseLeave={clearBackground}
+              to="/bestbuy"
+            >
+              Best Buy
+            </Link>
           </li>
           <li>
-            <Link onMouseEnter={changeBackground("dh")} onMouseLeave={clearBackground} to="/dungeon-highway">Dungeon Highway</Link>
+            <Link
+              onMouseEnter={changeBackground("dh")}
+              onMouseLeave={clearBackground}
+              to="/dungeon-highway"
+            >
+              Dungeon Highway
+            </Link>
           </li>
           <li>
-            <Link onMouseEnter={changeBackground("misc")} onMouseLeave={clearBackground} to="/miscellaneous">Miscellaneous</Link>
+            <Link
+              onMouseEnter={changeBackground("misc")}
+              onMouseLeave={clearBackground}
+              to="/miscellaneous"
+            >
+              Miscellaneous
+            </Link>
           </li>
         </ul>
 
-        <button onClick={() => scrollTo(aboutMeRef)}>ABOUT ME</button>
+        <FancyButton
+          containerClass="buttonContainer"
+          onClick={() => scrollTo(aboutMeRef)}
+        >
+          ABOUT ME
+        </FancyButton>
       </section>
 
       <section className="about-me" ref={aboutMeRef}>
@@ -87,14 +120,16 @@ const Home = () => {
         </p>
 
         <div className="contactLinks">
-          <a
-            className="button button-yellow"
-            href="mailto:calebhou1@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GET IN TOUCH
-          </a>
+          <div className="contactContainer">
+            <FancyLink
+              className="button-yellow"
+              href="mailto:calebhou1@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CONTACT
+            </FancyLink>
+          </div>
           <a
             className="download button button-borderless"
             href="/Caleb_resume_2020.pdf"
