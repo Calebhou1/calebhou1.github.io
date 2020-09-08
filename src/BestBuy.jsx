@@ -63,11 +63,11 @@ const BestBuy = () => (
 
     <CaseStudySection title="Wires">
       <Bricks desktopCols={3}>
-        <img src="/img/bby/AR wire Copy 2.png" />
-        <img src="/img/bby/AR wire.png" />
-        <img src="/img/bby/best buy - wire1.png" />
-        <img src="/img/bby/best buy - wire2.png" />
-        <img src="/img/bby/best buy - wire3.png" />
+        <img src="/img/bby/AR wire Copy 2.png" alt="Wireframe mockup 1"/>
+        <img src="/img/bby/AR wire.png" alt="Wireframe mockup 2"/>
+        <img src="/img/bby/best buy - wire1.png" alt="Wireframe mockup 3"/>
+        <img src="/img/bby/best buy - wire2.png" alt="Wireframe mockup 4"/>
+        <img src="/img/bby/best buy - wire3.png" alt="Wireframe mockup 5"/>
       </Bricks>
     </CaseStudySection>
 

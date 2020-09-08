@@ -33,79 +33,95 @@ const Miscellaneous = () => (
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 2@2x.png"
-          alt="Panda Express Order Page "
+          alt="Panda Express Ordering Webpage"
         />
       </Bricks>
       <Bricks>
-        <img className="CaseStudy__image" src="/img/misc/floating-laptop.gif" />
+        <img className="CaseStudy__image" src="/img/misc/floating-laptop.gif" alt="Pactful gif"/>
 
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 4@2x.png"
+          alt="Pactful mockup"
         />
       </Bricks>
       <img
         className="CaseStudy__image"
         src="/img/misc/miscellaneous - 5@2x.png"
+        alt="Bud light app"
       />
       <img
         className="CaseStudy__image"
         src="/img/misc/miscellaneous - 6@2x.png"
+        alt="Rendering 1"
       />
       <img
         className="CaseStudy__image"
         src="/img/misc/miscellaneous - 7@2x.png"
+        alt="Rendering 2"
       />
       <img
         className="CaseStudy__image"
         src="/img/misc/miscellaneous - 8@2x.png"
+        alt="Rendering 3"
       />
       <Bricks>
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 9@2x.png"
+          alt="Uplift logo"
         />
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 10@2x.png"
+          alt="Balfest logo 1"
         />
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 11@2x.png"
+          alt="Balfest logo 2"
         />
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 12@2x.png"
+          alt="Balfest logo 3"
         />
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 13@2x.png"
+          alt="Dressing logo"
         />
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 14@2x.png"
+          alt="Vert logo"
         />
       </Bricks>
       <img
         className="CaseStudy__image"
         src="/img/misc/miscellaneous - 15@2x.png"
+        alt="Rhythm logo"
       />
       <Bricks>
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 16@2x.png"
+          alt="SUURJ logo"
         />
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 17@2x.png"
+          alt="Vans"
         />
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 18@2x.png"
+          alt="How Short poster"
         />
         <img
           className="CaseStudy__image"
           src="/img/misc/miscellaneous - 19@2x.png"
+          alt="Album cover"
         />
       </Bricks>
     </CaseStudySection>
