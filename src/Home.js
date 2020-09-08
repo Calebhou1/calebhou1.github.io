@@ -1,4 +1,5 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
+import cx from 'classnames';
 import { Link } from "react-router-dom";
 import logo from "./img/hou_logo.png";
 import profile from "./img/caleb_profile.png";
@@ -11,6 +12,20 @@ const Home = () => {
 
   const scrollTo = ref => {
     window.scrollTo(0, ref.current.offsetTop);
+  };
+
+  const [bg, setBg] = useState("");
+
+  const changeBackground = (bgClass) => {
+    return (e) => {
+      e.preventDefault();
+      setBg(bgClass);
+    }
+  };
+
+  const clearBackground = (e) => {
+    e.preventDefault();
+    setBg("");
   };
 
   return (
@@ -26,21 +41,21 @@ const Home = () => {
         </button>
       </section>
 
-      <section className="my-work" ref={myWorkRef}>
+      <section className={cx("my-work", bg)} ref={myWorkRef}>
 
         <ul>
           <h2 className="sectionTitle">MY WORK</h2>
           <li>
-            <Link to="/disney">Disney</Link>
+            <Link onMouseEnter={changeBackground("disney")} onMouseLeave={clearBackground} to="/disney">Disney</Link>
           </li>
           <li>
-            <Link to="/bestbuy">Best Buy</Link>
+            <Link onMouseEnter={changeBackground("bby")} onMouseLeave={clearBackground} to="/bestbuy">Best Buy</Link>
           </li>
           <li>
-            <Link to="/dungeon-highway">Dungeon Highway</Link>
+            <Link onMouseEnter={changeBackground("dh")} onMouseLeave={clearBackground} to="/dungeon-highway">Dungeon Highway</Link>
           </li>
           <li>
-            <Link to="/miscellaneous">Miscellaneous</Link>
+            <Link onMouseEnter={changeBackground("misc")} onMouseLeave={clearBackground} to="/miscellaneous">Miscellaneous</Link>
           </li>
         </ul>
 

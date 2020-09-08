@@ -117,6 +117,22 @@ section {
       bottom: 80px;
     }
   }
+
+  background-position: top center;
+  background-size: cover;
+
+  &.disney {
+    background-image: url("/img/disney/background.png");
+  }
+  &.bby {
+    background-image: url("/img/bby/background.jpg");
+  }
+  &.dh {
+    background-image: url("/img/dh/background.png");
+  }
+  &.misc {
+    background-image: url("/img/misc/header - miscellaneous@2x.png");
+  }
 }
 
 .about-me {
