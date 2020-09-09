@@ -1,7 +1,5 @@
 @import "./globals";
 
-$CASE_STUDY_WIDTH: 1080px;
-
 .CaseStudy {
   text-align: center;
   background-color: $black;
@@ -47,7 +45,7 @@ $CASE_STUDY_WIDTH: 1080px;
   position: relative;
 }
 
-.CaseStudy__back {
+a.CaseStudy__back {
   padding: 24px 0 0;
   border: none;
   float: left;
@@ -132,36 +130,6 @@ $CASE_STUDY_WIDTH: 1080px;
   border: 2px solid $yellow;
 }
 
-.CaseStudySection {
-  position: relative;
-  margin: 80px auto;
-  max-width: $CASE_STUDY_WIDTH;
-
-  .CaseStudy__line {
-    box-shadow: 2px 2px 8px #222;
-  }
-}
-
-.CaseStudySection__label {
-  position: absolute;
-  padding-bottom: 10px;
-  padding-right: 20px;
-  top: 0;
-  left: 0;
-
-  transform: translate(-20px, -30%);
-  text-shadow: 2px 2px 8px #222;
-  background: transparent;
-}
-
-.CaseStudySection__title {
-  font-size: 32px;
-  font-weight: $extra-bold;
-  letter-spacing: 0;
-  text-align: left;
-  margin: 0;
-}
-
 .masonry-grid {
   display: flex;
   margin-left: -30px; /* gutter size offset */
@@ -171,29 +139,6 @@ $CASE_STUDY_WIDTH: 1080px;
 .masonry-grid_column {
   padding-left: 30px; /* gutter size */
   background-clip: padding-box;
-}
-
-.CaseStudySection img {
-  display: block;
-  width: 100%;
-  margin-bottom: 60px;
-}
-
-.CaseStudy__image {
-  display: block;
-  width: 100%;
-  max-width: $CASE_STUDY_WIDTH;
-  margin: 80px auto 120px;
-}
-
-.video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-  max-width: $CASE_STUDY_WIDTH;
-  margin: 80px auto;
-	overflow:hidden;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
