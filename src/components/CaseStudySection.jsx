@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/CaseStudySection.scss";
 
 const CaseStudySection = ({ title, children }) => (
   <div className="CaseStudySection">
