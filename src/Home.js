@@ -48,53 +48,60 @@ const Home = () => {
       </section>
 
       <section className={cx("my-work", bg)} ref={myWorkRef}>
-        <ul>
-          <h2 className="sectionTitle">MY WORK</h2>
-          <li>
-            <Link
-              onMouseEnter={changeBackground("disney")}
-              onMouseLeave={clearBackground}
-              to="/disney"
-            >
-              Disney
-            </Link>
-          </li>
-          <li>
-            <Link
-              onMouseEnter={changeBackground("bby")}
-              onMouseLeave={clearBackground}
-              to="/bestbuy"
-            >
-              Best Buy
-            </Link>
-          </li>
-          <li>
-            <Link
-              onMouseEnter={changeBackground("dh")}
-              onMouseLeave={clearBackground}
-              to="/dungeon-highway"
-            >
-              Dungeon Highway
-            </Link>
-          </li>
-          <li>
-            <Link
-              onMouseEnter={changeBackground("misc")}
-              onMouseLeave={clearBackground}
-              to="/miscellaneous"
-            >
-              Miscellaneous
-            </Link>
-          </li>
-        </ul>
+        <div className={cx("disneyBg", "bg", { show: bg === "disney" })}></div>
+        <div className={cx("bbyBg", "bg", { show: bg === "bby" })}></div>
+        <div className={cx("dhBg", "bg", { show: bg === "dh" })}></div>
+        <div className={cx("miscBg", "bg", { show: bg === "misc" })}></div>
 
-        <FancyButton
-          containerClass="buttonContainer"
-          svgClass="yellowStroke"
-          onClick={() => scrollTo(aboutMeRef)}
-        >
-          ABOUT ME
-        </FancyButton>
+        <div className="my-work-content">
+          <ul>
+            <h2 className="sectionTitle">MY WORK</h2>
+            <li>
+              <Link
+                onMouseEnter={changeBackground("disney")}
+                onMouseLeave={clearBackground}
+                to="/disney"
+              >
+                Disney
+              </Link>
+            </li>
+            <li>
+              <Link
+                onMouseEnter={changeBackground("bby")}
+                onMouseLeave={clearBackground}
+                to="/bestbuy"
+              >
+                Best Buy
+              </Link>
+            </li>
+            <li>
+              <Link
+                onMouseEnter={changeBackground("dh")}
+                onMouseLeave={clearBackground}
+                to="/dungeon-highway"
+              >
+                Dungeon Highway
+              </Link>
+            </li>
+            <li>
+              <Link
+                onMouseEnter={changeBackground("misc")}
+                onMouseLeave={clearBackground}
+                to="/miscellaneous"
+              >
+                Miscellaneous
+              </Link>
+            </li>
+          </ul>
+
+          <FancyButton
+            containerClass="buttonContainer"
+            svgClass="yellowStroke"
+            onClick={() => scrollTo(aboutMeRef)}
+          >
+            ABOUT ME
+          </FancyButton>
+        </div>
       </section>
 
       <section className="about-me" ref={aboutMeRef}>
