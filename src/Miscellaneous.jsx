@@ -37,7 +37,11 @@ const Miscellaneous = () => (
         />
       </Bricks>
       <Bricks>
-        <img className="CaseStudy__image" src="/img/misc/floating-laptop.gif" alt="Pactful gif"/>
+        <img
+          className="CaseStudy__image"
+          src="/img/misc/floating-laptop.gif"
+          alt="Pactful gif"
+        />
 
         <img
           className="CaseStudy__image"

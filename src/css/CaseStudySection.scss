@@ -16,12 +16,12 @@ $CASE_STUDY_WIDTH: 1080px;
   position: absolute;
   padding-bottom: 10px;
   padding-right: 20px;
-  top: 0;
-  left: 0;
+  top: -20px;
+  left: -20px;
 
-  transform: translate(-20px, -30%);
   text-shadow: 2px 2px 8px #222;
   background: transparent;
+  z-index: 10;
 }
 
 .CaseStudySection__title {
