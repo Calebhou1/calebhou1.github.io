@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import cx from "classnames";
 import { Link } from "react-router-dom";
-import logo from "./img/hou_logo.png";
+import logo from "./img/logo.svg";
 import profile from "./img/caleb_profile.png";
 import FancyButton from "./components/FancyButton.jsx";
 import FancyLink from "./components/FancyLink.jsx";
