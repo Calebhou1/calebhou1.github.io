@@ -59,8 +59,8 @@ button, .button {
 }
 
 .fade-in-section-slow{
-  transform: translateY(100px);
-  transition: opacity 0.6s ease-out, transform 2.2s ease-out;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.8s ease-out;
 }
 
 .is-visible {

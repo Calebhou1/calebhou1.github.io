@@ -22,13 +22,11 @@ const CaseStudy = ({
           BACK
         </Link>
         <h1>{title}</h1>
-        <FadeIn>
-          <h2>{subtitle}</h2>
-        </FadeIn>
+        <h2>{subtitle}</h2>
       </div>
 
       <div className="CaseStudy__content">
-        <FadeIn>{device}</FadeIn>
+        {device}
         <FadeIn>
           <h3 className={"CaseStudy__summary " + summaryStyle}>SUMMARY</h3>
         </FadeIn>
