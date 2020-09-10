@@ -9,7 +9,7 @@ const CaseStudy = ({
   background,
   backgroundStyle,
   summaryStyle,
-  children
+  children,
 }) => {
   return (
     <div className="CaseStudy">
