@@ -36,21 +36,21 @@ const Home = () => {
   return (
     <div className="Home" ref={homeRef}>
       <section className="hero">
-        <p className="desktop-title desktop-ux">
+        <div className="desktop-title desktop-ux">
           <LetterAnimated text="USER EXPERIENCE" />
-        </p>
-        <p className="desktop-title desktop-interaction">
+        </div>
+        <div className="desktop-title desktop-interaction">
           <LetterAnimated text="INTERACTION" />
-        </p>
-        <p className="desktop-title desktop-visual">
+        </div>
+        <div className="desktop-title desktop-visual">
           <LetterAnimated text="VISUAL" />
-        </p>
-        <p className="desktop-title desktop-illustration">
+        </div>
+        <div className="desktop-title desktop-illustration">
           <LetterAnimated text="ILLUSTRATION" />
-        </p>
-        <p className="titles">
+        </div>
+        <div className="titles">
           UX &middot; INTERACTION &middot; VISUAL &middot; ILLUSTRATION
-        </p>
+        </div>
 
         <img className="logo" src={logo} alt="HOU" />
         <FancyButton

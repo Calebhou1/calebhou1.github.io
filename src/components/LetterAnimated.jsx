@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import ReactAnime from "react-animejs";
 
 const { Anime } = ReactAnime;
@@ -40,8 +40,10 @@ export default ({ text }) => {
         },
       ]}
     >
-      {text.split("").map((l) => (
-        <span className="letter">{l}</span>
+      {text.split("").map((l, i) => (
+        <span className="letter" key={i}>
+          {l}
+        </span>
       ))}
     </Anime>
   );
