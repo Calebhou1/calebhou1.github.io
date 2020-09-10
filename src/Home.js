@@ -56,7 +56,9 @@ const Home = () => {
 
         <div className="my-work-content">
           <ul>
-            <h2 className="sectionTitle">MY WORK</h2>
+            <FadeIn slow>
+              <h2 className="sectionTitle">MY WORK</h2>
+            </FadeIn>
             <li>
               <FadeIn slow>
                 <Link

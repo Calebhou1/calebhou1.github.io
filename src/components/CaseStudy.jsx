@@ -1,4 +1,5 @@
 import React, { Children } from "react";
+import cx from "classnames";
 import { Link } from "react-router-dom";
 import FadeIn from "./FadeIn";
 import "../css/CaseStudy.scss";
@@ -10,6 +11,7 @@ const CaseStudy = ({
   background,
   backgroundStyle,
   summaryStyle,
+  deviceSpacerStyle,
   children,
 }) => {
   return (
@@ -27,6 +29,9 @@ const CaseStudy = ({
 
       <div className="CaseStudy__content">
         {device}
+        <div
+          className={cx("CaseStudy__device-spacer", deviceSpacerStyle)}
+        ></div>
         <FadeIn>
           <h3 className={"CaseStudy__summary " + summaryStyle}>SUMMARY</h3>
         </FadeIn>

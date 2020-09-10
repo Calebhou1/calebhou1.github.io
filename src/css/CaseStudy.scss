@@ -104,23 +104,26 @@ a.CaseStudy__back {
   }
 }
 
+.CaseStudy__device-spacer {
+  height: 180px;
+
+  @media only screen and (min-width: 768px) {
+    height: 380px;
+  }
+}
+
 .CaseStudy__summary {
   color: $yellow;
   letter-spacing: 2;
   font-size: 16px;
   font-weight: $semi-bold;
-  padding-top: 180px;
-
-  @media only screen and (min-width: 768px) {
-    padding-top: 380px;
-  }
 }
 
-.CaseStudy__summary-dh {
-  padding-top: 120px;
+.CaseStudy__device-spacer-dh {
+  height: 120px;
 
   @media only screen and (min-width: 768px) {
-    padding-top: 240px;
+    height: 240px;
   }
 }
 
