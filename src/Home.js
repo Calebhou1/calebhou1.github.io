@@ -35,6 +35,10 @@ const Home = () => {
   return (
     <div className="Home" ref={homeRef}>
       <section className="hero">
+        <p className="desktop-title desktop-ux">USER EXPERIENCE</p>
+        <p className="desktop-title desktop-interaction">INTERACTION</p>
+        <p className="desktop-title desktop-visual">VISUAL</p>
+        <p className="desktop-title desktop-illustration">ILLUSTRATION</p>
         <p className="titles">
           UX &middot; INTERACTION &middot; VISUAL &middot; ILLUSTRATION
         </p>

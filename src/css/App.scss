@@ -86,6 +86,41 @@ section {
   color: $light-gray;
   font-weight: $semi-bold;
   letter-spacing: 2px;
+  @media only screen and (min-width: 768px) {
+    opacity: 0;
+  }
+}
+
+.desktop-title {
+  position: absolute;
+  display: none;
+  font-size: 16px;
+  letter-spacing: 2px;
+  @media only screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.desktop-illustration {
+  top: 30px;
+  left: 50px;
+}
+
+.desktop-visual {
+  top: 50px;
+  right: 20px;
+  transform: rotate(90deg);
+}
+
+.desktop-interaction {
+  bottom: 30px;
+  right: 50px;
+}
+
+.desktop-ux {
+  bottom: 110px;
+  left: -30px;
+  transform: rotate(270deg);
 }
 
 .logo {
