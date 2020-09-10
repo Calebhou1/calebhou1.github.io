@@ -21,9 +21,7 @@ const CaseStudy = ({
         <Link to="/" className="CaseStudy__back button">
           BACK
         </Link>
-        <FadeIn>
-          <h1>{title}</h1>
-        </FadeIn>
+        <h1>{title}</h1>
         <FadeIn>
           <h2>{subtitle}</h2>
         </FadeIn>

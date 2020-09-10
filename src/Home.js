@@ -5,6 +5,7 @@ import logo from "./img/logo.svg";
 import profile from "./img/caleb_profile.png";
 import FancyButton from "./components/FancyButton.jsx";
 import FancyLink from "./components/FancyLink.jsx";
+import FadeIn from "./components/FadeIn";
 
 import "./css/App.scss";
 
@@ -57,40 +58,48 @@ const Home = () => {
           <ul>
             <h2 className="sectionTitle">MY WORK</h2>
             <li>
-              <Link
-                onMouseEnter={changeBackground("disney")}
-                onMouseLeave={clearBackground}
-                to="/disney"
-              >
-                Disney
-              </Link>
+              <FadeIn slow>
+                <Link
+                  onMouseEnter={changeBackground("disney")}
+                  onMouseLeave={clearBackground}
+                  to="/disney"
+                >
+                  Disney
+                </Link>
+              </FadeIn>
             </li>
             <li>
-              <Link
-                onMouseEnter={changeBackground("bby")}
-                onMouseLeave={clearBackground}
-                to="/bestbuy"
-              >
-                Best Buy
-              </Link>
+              <FadeIn slow>
+                <Link
+                  onMouseEnter={changeBackground("bby")}
+                  onMouseLeave={clearBackground}
+                  to="/bestbuy"
+                >
+                  Best Buy
+                </Link>
+              </FadeIn>
             </li>
             <li>
-              <Link
-                onMouseEnter={changeBackground("dh")}
-                onMouseLeave={clearBackground}
-                to="/dungeon-highway"
-              >
-                Dungeon Highway
-              </Link>
+              <FadeIn slow>
+                <Link
+                  onMouseEnter={changeBackground("dh")}
+                  onMouseLeave={clearBackground}
+                  to="/dungeon-highway"
+                >
+                  Dungeon Highway
+                </Link>
+              </FadeIn>
             </li>
             <li>
-              <Link
-                onMouseEnter={changeBackground("misc")}
-                onMouseLeave={clearBackground}
-                to="/miscellaneous"
-              >
-                Miscellaneous
-              </Link>
+              <FadeIn slow>
+                <Link
+                  onMouseEnter={changeBackground("misc")}
+                  onMouseLeave={clearBackground}
+                  to="/miscellaneous"
+                >
+                  Miscellaneous
+                </Link>
+              </FadeIn>
             </li>
           </ul>
 
@@ -105,48 +114,60 @@ const Home = () => {
       </section>
 
       <section className="about-me" ref={aboutMeRef}>
-        <img
-          className="profile-pic"
-          src={profile}
-          alt="Photograph of Caleb Hou with yellow-crested cockatoo on shoulder"
-        />
+        <FadeIn>
+          <img
+            className="profile-pic"
+            src={profile}
+            alt="Photograph of Caleb Hou with yellow-crested cockatoo on shoulder"
+          />
+        </FadeIn>
 
-        <h2 className="sectionTitle">ABOUT ME</h2>
+        <FadeIn>
+          <h2 className="sectionTitle">ABOUT ME</h2>
+        </FadeIn>
 
-        <p>
-          My favorite part of my job is figuring out problems and creating
-          gorgeous solutions through design. Whether it's an app, website, or
-          game, I'm always excited to jump in and help figure out the right
-          approach.
-        </p>
+        <FadeIn>
+          <p>
+            My favorite part of my job is figuring out problems and creating
+            gorgeous solutions through design. Whether it's an app, website, or
+            game, I'm always excited to jump in and help figure out the right
+            approach.
+          </p>
+        </FadeIn>
 
-        <p>
-          To me, design is more than just pixels on a screen or lines on a
-          paper. It's about making things that enable individuals, help them
-          accomplish their goals, and make them smile along the way. If I can
-          make even a single person crack a grin just by how enjoyable an
-          experience was, I consider the effort worthwhile.
-        </p>
+        <FadeIn>
+          <p>
+            To me, design is more than just pixels on a screen or lines on a
+            paper. It's about making things that enable individuals, help them
+            accomplish their goals, and make them smile along the way. If I can
+            make even a single person crack a grin just by how enjoyable an
+            experience was, I consider the effort worthwhile.
+          </p>
+        </FadeIn>
 
         <div className="contactLinks">
-          <div className="contactContainer">
-            <FancyLink
-              className="button-yellow"
-              href="mailto:calebhou1@gmail.com"
+          <FadeIn>
+            <div className="contactContainer">
+              <FancyLink
+                className="button-yellow"
+                href="mailto:calebhou1@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CONTACT
+              </FancyLink>
+            </div>
+          </FadeIn>
+          <FadeIn>
+            <a
+              className="download button button-borderless"
+              href="/Caleb_resume_2020.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
-              CONTACT
-            </FancyLink>
-          </div>
-          <a
-            className="download button button-borderless"
-            href="/Caleb_resume_2020.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            DOWNLOAD RESUME
-          </a>
+              DOWNLOAD RESUME
+            </a>
+          </FadeIn>
         </div>
       </section>
     </div>

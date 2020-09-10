@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
+import cx from "classnames";
 
-export default (props) => {
+export default ({ slow, children }) => {
   const [isVisible, setVisible] = useState(true);
   const [beenVisible, setBeenVisible] = useState(false);
   const domRef = useRef(null);
@@ -24,10 +25,13 @@ export default (props) => {
 
   return (
     <div
-      className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
+      className={cx("fade-in-section", {
+        "is-visible": isVisible,
+        "fade-in-section-slow": slow,
+      })}
       ref={domRef}
     >
-      {props.children}
+      {children}
     </div>
   );
 };
