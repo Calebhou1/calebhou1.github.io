@@ -6,6 +6,7 @@ import profile from "./img/caleb_profile.png";
 import FancyButton from "./components/FancyButton.jsx";
 import FancyLink from "./components/FancyLink.jsx";
 import FadeIn from "./components/FadeIn";
+import LetterAnimated from "./components/LetterAnimated";
 
 import "./css/App.scss";
 
@@ -35,10 +36,18 @@ const Home = () => {
   return (
     <div className="Home" ref={homeRef}>
       <section className="hero">
-        <p className="desktop-title desktop-ux">USER EXPERIENCE</p>
-        <p className="desktop-title desktop-interaction">INTERACTION</p>
-        <p className="desktop-title desktop-visual">VISUAL</p>
-        <p className="desktop-title desktop-illustration">ILLUSTRATION</p>
+        <p className="desktop-title desktop-ux">
+          <LetterAnimated text="USER EXPERIENCE" />
+        </p>
+        <p className="desktop-title desktop-interaction">
+          <LetterAnimated text="INTERACTION" />
+        </p>
+        <p className="desktop-title desktop-visual">
+          <LetterAnimated text="VISUAL" />
+        </p>
+        <p className="desktop-title desktop-illustration">
+          <LetterAnimated text="ILLUSTRATION" />
+        </p>
         <p className="titles">
           UX &middot; INTERACTION &middot; VISUAL &middot; ILLUSTRATION
         </p>
