@@ -2,6 +2,7 @@ import React from "react";
 import Bricks from "./components/Bricks";
 import CaseStudy from "./components/CaseStudy";
 import CaseStudySection from "./components/CaseStudySection";
+import FadeIn from "./components/FadeIn";
 
 const Miscellaneous = () => (
   <CaseStudy
@@ -15,13 +16,17 @@ const Miscellaneous = () => (
     deviceStyle="CaseStudy__device-dh"
     background="/img/misc/header - miscellaneous@2x.png"
   >
-    <p>
-      These are some examples of various works I've done through the years that
-      I'm proud of. They vary from illustration and branding to books and
-      architectural renderings.
-    </p>
+    <FadeIn>
+      <p>
+        These are some examples of various works I've done through the years
+        that I'm proud of. They vary from illustration and branding to books and
+        architectural renderings.
+      </p>
+    </FadeIn>
 
-    <p>For more information, please get in touch.</p>
+    <FadeIn>
+      <p>For more information, please get in touch.</p>
+    </FadeIn>
 
     <CaseStudySection>
       <Bricks>
