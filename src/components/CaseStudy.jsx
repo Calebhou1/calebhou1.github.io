@@ -1,5 +1,6 @@
-import React from "react";
+import React, { Children } from "react";
 import { Link } from "react-router-dom";
+import FadeIn from "./FadeIn";
 import "../css/CaseStudy.scss";
 
 const CaseStudy = ({
@@ -9,7 +10,7 @@ const CaseStudy = ({
   background,
   backgroundStyle,
   summaryStyle,
-  children
+  children,
 }) => {
   return (
     <div className="CaseStudy">
@@ -26,8 +27,12 @@ const CaseStudy = ({
 
       <div className="CaseStudy__content">
         {device}
-        <h3 className={"CaseStudy__summary " + summaryStyle}>SUMMARY</h3>
-        {children}
+        <FadeIn>
+          <h3 className={"CaseStudy__summary " + summaryStyle}>SUMMARY</h3>
+        </FadeIn>
+        {Children.map(children, (child, i) => (
+          <FadeIn key={i}>{child}</FadeIn>
+        ))}
       </div>
     </div>
   );

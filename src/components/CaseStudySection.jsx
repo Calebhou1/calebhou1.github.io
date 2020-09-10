@@ -1,17 +1,23 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import React, { Children } from "react";
+import FadeIn from "./FadeIn";
 import "../css/CaseStudySection.scss";
 
 const CaseStudySection = ({ title, children }) => (
   <div className="CaseStudySection">
-    <Fade bottom>
-      <div className="CaseStudySection__label">
+    <div className="CaseStudySection__label">
+      <FadeIn>
         <h3 className="CaseStudySection__title">{title}</h3>
-        {title && <hr className="CaseStudy__line" />}
-      </div>
+      </FadeIn>
+      {title && (
+        <FadeIn>
+          <hr className="CaseStudy__line" />
+        </FadeIn>
+      )}
+    </div>
 
-      {children}
-    </Fade>
+    {Children.map(children, (child, i) => (
+      <FadeIn key={i}>{child}</FadeIn>
+    ))}
   </div>
 );
 

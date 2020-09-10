@@ -2,6 +2,7 @@ import React from "react";
 import CaseStudy from "./components/CaseStudy";
 import CaseStudyStat from "./components/CaseStudyStat";
 import CaseStudySection from "./components/CaseStudySection";
+import FadeIn from "./components/FadeIn";
 
 const DungeonHighway = () => (
   <CaseStudy
@@ -16,29 +17,37 @@ const DungeonHighway = () => (
     summaryStyle="CaseStudy__summary-dh"
     background="/img/dh/background.png"
   >
-    <p>
-      A short project whipped up while on the bench managed to get 500,000
-      downloads on the App Store and earn the Steam Greenlight.
-    </p>
+    <FadeIn>
+      <p>
+        A short project whipped up while on the bench managed to get 500,000
+        downloads on the App Store and earn the Steam Greenlight.
+      </p>
+    </FadeIn>
 
-    <p>For more information, please get in touch.</p>
+    <FadeIn>
+      <p>For more information, please get in touch.</p>
+    </FadeIn>
 
-    <div className="CaseStudy__stats">
-      <CaseStudyStat label="MY ROLE" value="UX, Art Direction" />
-      <CaseStudyStat label="DURATION" value="2 months" />
-      <CaseStudyStat label="TEAM" value="1 Designer, 2 Developers, 1 PM" />
-    </div>
+    <FadeIn>
+      <div className="CaseStudy__stats">
+        <CaseStudyStat label="MY ROLE" value="UX, Art Direction" />
+        <CaseStudyStat label="DURATION" value="2 months" />
+        <CaseStudyStat label="TEAM" value="1 Designer, 2 Developers, 1 PM" />
+      </div>
+    </FadeIn>
 
-    <div className="video-container">
-      <iframe
-        title="Dungeon Highway Steam Gameplay Trailer"
-        src="https://www.youtube.com/embed/m0ZawwCwSKI"
-        className="CaseStudy__video"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
+    <FadeIn>
+      <div className="video-container">
+        <iframe
+          title="Dungeon Highway Steam Gameplay Trailer"
+          src="https://www.youtube.com/embed/m0ZawwCwSKI"
+          className="CaseStudy__video"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </FadeIn>
 
     <CaseStudySection title="Wire">
       <img

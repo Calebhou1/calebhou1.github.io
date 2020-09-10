@@ -3,6 +3,7 @@ import Bricks from "./components/Bricks";
 import CaseStudy from "./components/CaseStudy";
 import CaseStudyStat from "./components/CaseStudyStat";
 import CaseStudySection from "./components/CaseStudySection";
+import FadeIn from "./components/FadeIn";
 
 const BestBuy = () => (
   <CaseStudy
@@ -15,35 +16,45 @@ const BestBuy = () => (
     />
     background="/img/bby/background.jpg"
   >
-    <p>
-      The Best Buy Home App is Best Buy's approach to developing a constant
-      relationship with their customers outside of the store. By providing a
-      support-focused experience, they would be able to provide value on a
-      consistent basis.
-    </p>
+    <FadeIn>
+      <p>
+        The Best Buy Home App is Best Buy's approach to developing a constant
+        relationship with their customers outside of the store. By providing a
+        support-focused experience, they would be able to provide value on a
+        consistent basis.
+      </p>
+    </FadeIn>
 
-    <p>
-      I spent 2 years as the lead designer on this project. Notable features
-      include: Smart home functionality, Augmented Reality, Optical Character
-      Recognition, live streaming, and more.
-    </p>
+    <FadeIn>
+      <p>
+        I spent 2 years as the lead designer on this project. Notable features
+        include: Smart home functionality, Augmented Reality, Optical Character
+        Recognition, live streaming, and more.
+      </p>
+    </FadeIn>
 
-    <p>For more information, please get in touch.</p>
+    <FadeIn>
+      <p>For more information, please get in touch.</p>
+    </FadeIn>
 
-    <div className="CaseStudy__stats">
-      <CaseStudyStat
-        label="MY ROLE"
-        value="UX, Visual, Research, Illustration, Prototyping"
+    <FadeIn>
+      <div className="CaseStudy__stats">
+        <CaseStudyStat
+          label="MY ROLE"
+          value="UX, Visual, Research, Illustration, Prototyping"
+        />
+        <CaseStudyStat label="DURATION" value="2 years" />
+        <CaseStudyStat label="TEAM" value="Fluctuating" />
+      </div>
+    </FadeIn>
+
+    <FadeIn>
+      <img
+        className="CaseStudy__image"
+        src="/img/bby/icons.png"
+        alt="Best Buy Icons Design"
       />
-      <CaseStudyStat label="DURATION" value="2 years" />
-      <CaseStudyStat label="TEAM" value="Fluctuating" />
-    </div>
-
-    <img
-      className="CaseStudy__image"
-      src="/img/bby/icons.png"
-      alt="Best Buy Icons Design"
-    />
+    </FadeIn>
 
     <CaseStudySection title="IA">
       <img src="/img/bby/ia1.png" alt="Information Architecture Diagram 1" />
@@ -63,11 +74,11 @@ const BestBuy = () => (
 
     <CaseStudySection title="Wires">
       <Bricks desktopCols={3}>
-        <img src="/img/bby/AR wire Copy 2.png" alt="Wireframe mockup 1"/>
-        <img src="/img/bby/AR wire.png" alt="Wireframe mockup 2"/>
-        <img src="/img/bby/best buy - wire1.png" alt="Wireframe mockup 3"/>
-        <img src="/img/bby/best buy - wire2.png" alt="Wireframe mockup 4"/>
-        <img src="/img/bby/best buy - wire3.png" alt="Wireframe mockup 5"/>
+        <img src="/img/bby/AR wire Copy 2.png" alt="Wireframe mockup 1" />
+        <img src="/img/bby/AR wire.png" alt="Wireframe mockup 2" />
+        <img src="/img/bby/best buy - wire1.png" alt="Wireframe mockup 3" />
+        <img src="/img/bby/best buy - wire2.png" alt="Wireframe mockup 4" />
+        <img src="/img/bby/best buy - wire3.png" alt="Wireframe mockup 5" />
       </Bricks>
     </CaseStudySection>
 
