@@ -49,6 +49,10 @@
   }
 }
 
+.fade {
+  animation: 0.8s ease-out 0s 1 slideUp;
+}
+
 .CaseStudy__hero-disney {
   background-position: bottom right;
 }
