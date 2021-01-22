@@ -8,6 +8,7 @@ import BestBuy from "./BestBuy";
 import BestBuyUnlisted from "./BestBuyUnlisted";
 import DungeonHighway from "./DungeonHighway";
 import Miscellaneous from "./Miscellaneous";
+import Bungie from "./Bungie";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/disney">
-          <DisneyUnlisted/>
+          <DisneyUnlisted />
         </Route>
         <Route exact path="/disney-unlisted-caleb-portfolio">
           <Disney />
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route exact path="/miscellaneous">
           <Miscellaneous />
+        </Route>
+        <Route exact path="/bungie">
+          <Bungie />
         </Route>
       </Switch>
     </Router>
