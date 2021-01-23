@@ -6,21 +6,6 @@ export default () => (
   <div className="bungie">
     <h1>Rethinking Triumphs in Destiny 2</h1>
     <h2>By Caleb Hou</h2>
-    <p>
-      Hello there! I'm so excited and honored that you are viewing my little
-      passion project. I've been one of Bungie's biggest fans since I've been 10
-      years old, and Destiny has been a huge part of my life for the past 5
-      years. I've made some of my closest friends through the game, and it's
-      really gotten me through a lot. Working for Bungie has been a dream of
-      mine, and I've spent the last 4 years of my career working on becoming a
-      designer that you would want. While I don't necessarily have a lot of
-      experience working in games, I am pretty good at design and I am a quick
-      learner. I know that if you give me a chance to prove myself, I will show
-      up every day, be excited, and make you guys proud. The project below
-      contains my perspective on how I would enhance your already incredible
-      game. Please enjoy, let me know if you have any questions, and thank you
-      very much for your consideration!{" "}
-    </p>
     <BungieImage
       src="/img/bungie/01 - Consolidating triumphs.png"
       caption="Consolidating triumphs"
