@@ -6,30 +6,32 @@ export default () => (
   <div className="bungie">
     <h1>Rethinking Triumphs in Destiny 2</h1>
     <h2>By Caleb Hou</h2>
-    <p>
-      Hello and thank you for viewing my design project. This project is an
-      expression of my admiration of Destiny 2 from a player perspective as well
-      as a view into my passion for thinking through user experience design
-      problems.
-    </p>
-    <p>
-      In my career of 9 years, I’ve worked on a wide variety of projects
-      including mobile games, apps for Disney World, and websites for non-profit
-      organizations. Across all these projects, my ultimate goal has remained
-      the same: to bring enjoyment to users. In my current position as a Senior
-      UX Designer at Microsoft, I lead a team to make a support app that will
-      help thousands of users navigate their shopping experience. And while my
-      work is enjoyable, my passion for gaming has lead me to seek a more
-      meaningful position in UX design in games. I hope to use my skills at
-      Bungie to contribute to the creation of memorable experiences for fellow
-      gamers.
-    </p>
-    <p>
-      Below is my perspective on the UX of the Triumph system in Destiny 2. This
-      presentation exemplifies my capability for heuristic analysis, information
-      architecture, persona development, and wire-framing with applicability to
-      UX design in games. Thank you for your consideration.
-    </p>
+    <div className="description">
+      <p>
+        Hello and thank you for viewing my design project. This project is an
+        expression of my admiration of Destiny 2 from a player perspective as
+        well as a view into my passion for thinking through user experience
+        design problems.
+      </p>
+      <p>
+        In my career of 9 years, I’ve worked on a wide variety of projects
+        including mobile games, apps for Disney World, and websites for
+        non-profit organizations. Across all these projects, my ultimate goal
+        has remained the same: to bring enjoyment to users. In my current
+        position as a Senior UX Designer at Microsoft, I lead a team to make a
+        support app that will help thousands of users navigate their shopping
+        experience. And while my work is enjoyable, my passion for gaming has
+        lead me to seek a more meaningful position in UX design in games. I hope
+        to use my skills at Bungie to contribute to the creation of memorable
+        experiences for fellow gamers.
+      </p>
+      <p>
+        Below is my perspective on the UX of the Triumph system in Destiny 2.
+        This presentation exemplifies my capability for heuristic analysis,
+        information architecture, persona development, and wire-framing with
+        applicability to UX design in games. Thank you for your consideration.
+      </p>
+    </div>
     <BungieImage
       src="/img/bungie/01 - Consolidating triumphs.png"
       caption="Consolidating triumphs"
