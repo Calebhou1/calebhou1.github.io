@@ -76,18 +76,9 @@ const Disney = () => (
 
     <CaseStudySection title="Iterations">
       <Bricks>
-        <img
-          src="/img/disney/iterate1.png"
-          alt="First iteration of Disney website"
-        />
-        <img
-          src="/img/disney/iterate2.png"
-          alt="Second iteration of Disney website"
-        />
-        <img
-          src="/img/disney/iterate3.png"
-          alt="Third iteration of Disney website"
-        />
+        <img src="/img/disney/iterate1.png" alt="Iteration 1" />
+        <img src="/img/disney/iterate3.png" alt="Iteration 3" />
+        <img src="/img/disney/iterate2.png" alt="Iteration 2" />
       </Bricks>
     </CaseStudySection>
 
