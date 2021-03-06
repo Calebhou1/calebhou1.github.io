@@ -18,12 +18,12 @@ export default () => (
         including mobile games, apps for Disney World, and websites for
         non-profit organizations. Across all these projects, my ultimate goal
         has remained the same: to bring enjoyment to users. In my current
-        position as a Senior UX Designer at Microsoft, I lead a team to make a
-        support app that will help thousands of users navigate their shopping
-        experience. And while my work is enjoyable, my passion for gaming has
-        lead me to seek a more meaningful position in UX design in games. I hope
-        to use my skills at Bungie to contribute to the creation of memorable
-        experiences for fellow gamers.
+        position as a Senior Product Designer at Disney, I'm working on a
+        project that will help thousands of people get the most out of their
+        experience at the parks, resorts, and cruise lines. And while my work is
+        enjoyable, my passion for gaming has led me to seek a more meaningful
+        position in UX design in games. I hope to use my skills at Bungie to
+        contribute to the creation of memorable experiences for fellow gamers.
       </p>
       <p>
         Below is my perspective on the UX of the Triumph system in Destiny 2.
