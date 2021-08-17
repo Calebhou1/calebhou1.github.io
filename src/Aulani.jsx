@@ -9,8 +9,7 @@ const Aulani = () => (
   <CaseStudy
     title="Aulani"
     subtitle="APP FEATURE - MY PLANS"
-    // background="/img/aulani/background-dim.jpg"
-    background="/img/aulani/background.jpg"
+    background="/img/aulani/background_dim.jpg"
     device=<img
       className="CaseStudy__device CaseStudy__device-aulani"
       src="/img/aulani/device.png"
