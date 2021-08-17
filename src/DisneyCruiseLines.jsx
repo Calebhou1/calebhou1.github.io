@@ -81,11 +81,11 @@ const DisneyCruiseLines = () => (
           src="/img/disneycruise/comps/Picked Up.png"
           alt="Order picked up"
         />
+        <img src="/img/disneycruise/comps/Bag.png" alt="Your bag" />
         <img
           src="/img/disneycruise/comps/Confirmation.png"
           alt="Order received"
         />
-        <img src="/img/disneycruise/comps/Bag.png" alt="Your bag" />
       </Bricks>
     </CaseStudySection>
   </CaseStudy>
