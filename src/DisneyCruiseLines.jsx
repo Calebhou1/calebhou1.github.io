@@ -20,11 +20,11 @@ const DisneyCruiseLines = () => (
     <FadeIn>
       <p>
         During Covid-19, Disney Cruise Lines were forced to halt all cruises.
-        During this down-time, we began ideating on ways to make the cruise
-        ships more accessible and respectful of social- distancing policies.
-        This project’s focus was aimed at improving the guest experience by
-        making food ordering more streamlined, reducing the time waiting in line
-        and preventing crowding.
+        During this down-time, we began thinking of ways to make the cruise
+        ships more accessible and respectful of social-distancing policies. This
+        project’s focus was aimed at improving the guest experience by making
+        food ordering more streamlined, reducing the time waiting in line and
+        preventing crowding.
       </p>
     </FadeIn>
     <FadeIn>
