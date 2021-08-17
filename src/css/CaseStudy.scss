@@ -96,6 +96,14 @@ a.CaseStudy__back {
   max-width: 800px;
 }
 
+.CaseStudy__device-aulani {
+  width: 180px;
+
+  @media only screen and (min-width: 768px) {
+    width: 350px;
+  }
+}
+
 .CaseStudy__device-bby {
   max-width: 600px;
 }

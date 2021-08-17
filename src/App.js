@@ -4,6 +4,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Disney from "./Disney";
 import DisneyUnlisted from "./DisneyUnlisted";
+import Aulani from "./Aulani";
 import BestBuy from "./BestBuy";
 import BestBuyUnlisted from "./BestBuyUnlisted";
 import DungeonHighway from "./DungeonHighway";
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route exact path="/disney-unlisted-caleb-portfolio">
           <Disney />
+        </Route>
+        <Route exact path="/aulani">
+          <Aulani />
         </Route>
         <Route exact path="/bestbuy">
           <BestBuyUnlisted />
