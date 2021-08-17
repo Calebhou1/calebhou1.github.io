@@ -18,11 +18,12 @@ const Aulani = () => (
   >
     <FadeIn>
       <p>
-        The Aulani app is ripe for opportunity. While the app shows reservation
-        details and a variety of daily activities, users lack the ability to
-        create itineraries or reservations. This project’s goal was to make the
-        app experience more useful and intuitive by giving the user the ability
-        to make plans with their family and to make restaurant reservations.
+        The Aulani app is ripe for opportunity. While the app shows the details
+        of your stay and a variety of daily activities, users lack the ability
+        to create itineraries or reservations. This project’s goal was to make
+        the app experience more useful and intuitive by giving the user the
+        ability to make plans with their family and to make restaurant
+        reservations.
       </p>
     </FadeIn>
     <FadeIn>
