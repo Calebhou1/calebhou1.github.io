@@ -22,8 +22,7 @@ const Aulani = () => (
         details and a variety of daily activities, users lack the ability to
         create itineraries or reservations. This project’s goal was to make the
         app experience more useful and intuitive by giving the user the ability
-        to make plans with their family and to make restaurant reservations. For
-        more information, please get in touch.
+        to make plans with their family and to make restaurant reservations.
       </p>
     </FadeIn>
     <FadeIn>
