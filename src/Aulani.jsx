@@ -64,7 +64,7 @@ const Aulani = () => (
     <CaseStudySection title="Restaurant Reservations">
       <Bricks desktopCols={3}>
         <img
-          src="/img/aulani/My Plans Add Activity Interstitial.png"
+          src="/img/aulani/My Plans Add Activity interstitial.png"
           alt="Mockup of Add Activity Interstitial"
         />
         <img
