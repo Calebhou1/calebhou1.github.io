@@ -4,8 +4,10 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Disney from "./Disney";
 import DisneyCruiseLines from "./DisneyCruiseLines";
+import DisneyCruiseLinesUnlisted from "./DisneyCruiseLinesUnlisted";
 import DisneyUnlisted from "./DisneyUnlisted";
 import Aulani from "./Aulani";
+import AulaniUnlisted from "./AulaniUnlisted";
 import BestBuy from "./BestBuy";
 import BestBuyUnlisted from "./BestBuyUnlisted";
 import DungeonHighway from "./DungeonHighway";
@@ -28,9 +30,15 @@ function App() {
           <Disney />
         </Route>
         <Route exact path="/aulani">
-          <Aulani />
+          <AulaniUnlisted />
         </Route>
         <Route exact path="/disney-cruise">
+          <DisneyCruiseLinesUnlisted />
+        </Route>
+        <Route exact path="/aulani-hidden">
+          <Aulani />
+        </Route>
+        <Route exact path="/disney-cruise-hidden">
           <DisneyCruiseLines />
         </Route>
         <Route exact path="/bestbuy">
