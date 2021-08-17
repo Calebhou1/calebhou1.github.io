@@ -42,7 +42,7 @@ const Aulani = () => (
 
     <CaseStudySection title="My Plans">
       <Bricks desktopCols={3}>
-        <img src="/img/aulani/home.png" alt="Mockup of home page" />
+        <img src="/img/aulani/Home.png" alt="Mockup of home page" />
         <img
           src="/img/aulani/Daily Activities.png"
           alt="Mockup of Daily Activities page"
