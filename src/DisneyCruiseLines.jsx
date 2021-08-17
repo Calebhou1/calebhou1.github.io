@@ -44,7 +44,7 @@ const DisneyCruiseLines = () => (
 
     <CaseStudySection title="Room Service Map">
       <img
-        src="/img/disneycruise/Room Service Map.png"
+        src="/img/disneycruise/comps/Room Service Map.png"
         alt="Room Service Map"
       />
     </CaseStudySection>
