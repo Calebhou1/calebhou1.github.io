@@ -79,7 +79,7 @@ const Home = () => {
                   onMouseLeave={clearBackground}
                   to="/disney"
                 >
-                  Disney
+                  Walt Disney World
                 </Link>
               </FadeIn>
             </li>

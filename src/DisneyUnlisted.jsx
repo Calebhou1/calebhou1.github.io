@@ -13,7 +13,7 @@ export default () => (
       <Link to="/" className="CaseStudy__back">
         BACK
       </Link>
-      <h1>Disney</h1>
+      <h1>Walt Disney World</h1>
 
       <p className="fade">Please contact me for a link to this case study.</p>
     </div>
