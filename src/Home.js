@@ -64,6 +64,11 @@ const Home = () => {
       <section className={cx("my-work", bg)} ref={myWorkRef}>
         <div className={cx("disneyBg", "bg", { show: bg === "disney" })}></div>
         <div className={cx("aulaniBg", "bg", { show: bg === "aulani" })}></div>
+        <div
+          className={cx("disneyCruiseBg", "bg", {
+            show: bg === "disneyCruise",
+          })}
+        ></div>
         <div className={cx("bbyBg", "bg", { show: bg === "bby" })}></div>
         <div className={cx("dhBg", "bg", { show: bg === "dh" })}></div>
         <div className={cx("miscBg", "bg", { show: bg === "misc" })}></div>
@@ -92,6 +97,17 @@ const Home = () => {
                   to="/aulani"
                 >
                   Aulani
+                </Link>
+              </FadeIn>
+            </li>
+            <li>
+              <FadeIn slow>
+                <Link
+                  onMouseEnter={changeBackground("disneyCruise")}
+                  onMouseLeave={clearBackground}
+                  to="/disney-cruise"
+                >
+                  Disney Cruise Lines
                 </Link>
               </FadeIn>
             </li>

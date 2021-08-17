@@ -57,6 +57,14 @@
   background-position: bottom right;
 }
 
+.CaseStudy__hero-disneycruise {
+  h1 {
+    @media only screen and (min-width: 768px) {
+      font-size: 80px;
+    }
+  }
+}
+
 .CaseStudy__hero, .CaseStudy__content {
   padding: 0 44px;
   position: relative;
@@ -101,6 +109,14 @@ a.CaseStudy__back {
 
   @media only screen and (min-width: 768px) {
     width: 350px;
+  }
+}
+
+.CaseStudy__device-disneycruise {
+  width: 180px;
+
+  @media only screen and (min-width: 768px) {
+    width: 330px;
   }
 }
 

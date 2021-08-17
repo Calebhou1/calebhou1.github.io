@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./Home";
 import Disney from "./Disney";
+import DisneyCruiseLines from "./DisneyCruiseLines";
 import DisneyUnlisted from "./DisneyUnlisted";
 import Aulani from "./Aulani";
 import BestBuy from "./BestBuy";
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/aulani">
           <Aulani />
+        </Route>
+        <Route exact path="/disney-cruise">
+          <DisneyCruiseLines />
         </Route>
         <Route exact path="/bestbuy">
           <BestBuyUnlisted />
