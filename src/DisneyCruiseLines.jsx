@@ -86,6 +86,8 @@ const DisneyCruiseLines = () => (
           src="/img/disneycruise/comps/Confirmation.png"
           alt="Order received"
         />
+        <img src="/img/disneycruise/comps/B2.1.png" />
+        <img src="/img/disneycruise/comps/B4.1.png" />
       </Bricks>
     </CaseStudySection>
   </CaseStudy>
