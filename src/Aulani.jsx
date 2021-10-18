@@ -1,6 +1,7 @@
 import React from "react";
 import Bricks from "./components/Bricks";
 import CaseStudy from "./components/CaseStudy";
+import CaseStudyImage from "./components/CaseStudyImage";
 import CaseStudyStat from "./components/CaseStudyStat";
 import CaseStudySection from "./components/CaseStudySection";
 import FadeIn from "./components/FadeIn";
@@ -18,12 +19,14 @@ const Aulani = () => (
   >
     <FadeIn>
       <p>
-        The Aulani app is ripe for opportunity. While the app shows the details
-        of your stay and a variety of daily activities, users lack the ability
-        to create itineraries or reservations. This project’s goal was to make
-        the app experience more useful and intuitive by giving the user the
-        ability to make plans with their family and to make restaurant
-        reservations.
+        The Aulani app was ripe for opportunity. While it shows off your
+        reservation details and a variety of experiences, users lack the ability
+        to create an itinerary or to make restaurant reservations.
+        Simultaneously, the app’s design is dated and performs poorly in
+        discoverability and accessibility. This project’s goals were to improve
+        the discoverability of events, increase guest usage of the app
+        throughout the day, and decrease the amount of calls the guest helpline
+        receives.
       </p>
     </FadeIn>
     <FadeIn>
@@ -36,58 +39,150 @@ const Aulani = () => (
           label="MY ROLE"
           value="UX design, Visual design, Illustration"
         />
-        <CaseStudyStat label="DURATION" value="8 weeks" />
+        <CaseStudyStat label="DURATION" value="9 weeks" />
         <CaseStudyStat label="TEAM" value="1 Design, 7 Dev, 1 PM" />
       </div>
     </FadeIn>
 
-    <CaseStudySection title="My Plans">
-      <Bricks desktopCols={3}>
-        <img src="/img/aulani/Home.png" alt="Mockup of home page" />
-        <img
-          src="/img/aulani/Daily Activities.png"
-          alt="Mockup of Daily Activities page"
-        />
-        <img src="/img/aulani/My Plans.png" alt="Mockup of My Plans page" />
-        <img src="/img/aulani/Custom.png" alt="Mockup of sample plan page" />
-        <img
-          src="/img/aulani/Add Activity interstitial.png"
-          alt="Mockup of Add Activity Interstitial"
-        />
-        <img src="/img/aulani/Favorites.png" alt="Mockup of Favorites page" />
-        <img src="/img/aulani/Share Plan.png" alt="Mockup of Share Plan page" />
-        <img src="/img/aulani/Dining.png" alt="Mockup of Dining page" />
-        <img src="/img/aulani/On Resort.png" alt="Mockup of On Resort page" />
+    <CaseStudySection title="Situation">
+      <Bricks desktopCols={1}>
+        <CaseStudyImage src="/img/aulani/booklet.jpeg" alt="Booklet">
+          Guests come to Aulani because they are Disney fans and want to
+          experience the plethora of activities included in their stay. However,
+          most guests spend up to 20 minutes each morning reading and planning
+          their day from a booklet and having to call guest services for more
+          details.
+        </CaseStudyImage>
+        <CaseStudyImage src="/img/aulani/persona.png" alt="Family on beach">
+          Partnering with CIMA (Consumer Insights, Management & Analytics), we
+          ran a study on 900 people to learn their top priorities: view their
+          schedule, make an itinerary, and make reservations. Our main personas
+          (40% of adults) are focused on getting as much value as they can from
+          their stay and want to have every day planned.
+        </CaseStudyImage>
       </Bricks>
     </CaseStudySection>
 
-    <CaseStudySection title="Restaurant Reservations">
+    <CaseStudySection title="CURRENT">
+      <p>
+        The app only shows reservation details and the daily activity schedule,
+        but guests are left wanting. The design is dated and users complain
+        about not being able to find more details about the activities aside
+        from the title. Initially, the task for the project was to add an “Add
+        to Plan” button on the schedule page, as well as a “My Plans” tab on the
+        tab bar. Given the state of the design and the user complaints, I saw an
+        opportunity to polish this app to a Disney level of quality.
+      </p>
       <Bricks desktopCols={3}>
-        <img
-          src="/img/aulani/My Plans Add Activity Interstitial.png"
-          alt="Mockup of Add Activity Interstitial"
-        />
-        <img
-          src="/img/aulani/Select Restaurant.png"
-          alt="Mockup of Selecting Restaurant"
-        />
-        <img
-          src="/img/aulani/time interstitial.png"
-          alt="Mockup of time interstitial"
-        />
-        <img
-          src="/img/aulani/Enter Details.png"
-          alt="Mockup of entering reservation details"
-        />
-        <img
-          src="/img/aulani/Dietary Restrictions.png"
-          alt="Mockup of dietary restrictions form"
-        />
-        <img
-          src="/img/aulani/Reservation Confirmed.png"
-          alt="Mockup of reservation confirmation"
-        />
+        <img src="/img/aulani/current1.png" />
+        <img src="/img/aulani/current2.png" />
+        <img src="/img/aulani/current3.png" />
+        <img src="/img/aulani/current4.png" />
+        <img src="/img/aulani/current5.png" />
       </Bricks>
+    </CaseStudySection>
+
+    <CaseStudySection title="Workshop">
+      <Bricks desktopCols={1}>
+        <CaseStudyImage src="/img/aulani/workshop.png">
+          My PM and I ran a day-long workshop with all the partners to determine
+          what we could achieve in our MVP that accomplished the user goals of
+          seeing what activities were available at any time, build their
+          itinerary, and book dining reservations.
+        </CaseStudyImage>
+        <CaseStudyImage src="/img/aulani/user stories.png">
+          My PM and I then began to write a long list of user stories,
+          categorized them, and prioritized them for the coming year.
+        </CaseStudyImage>
+        <CaseStudyImage src="/img/aulani/IA.png">
+          The output of the workshop resulted in an Information Architecture in
+          which I mapped out our features for the next year.
+        </CaseStudyImage>
+      </Bricks>
+    </CaseStudySection>
+
+    <CaseStudySection title="Iterations">
+      <p>
+        Most of my inspiration came from Google Maps and Airbnb. The visual
+        design explorations I did were focused on improving discoverability
+        while maintaining the Disney standard of quality. Some unique
+        considerations I had came from collaborating with on-site cultural
+        experts that advised me on utilizing native patterns/imagery to respect
+        local tradition while tying the app closer to the resort experience.
+      </p>
+      <Bricks desktopCols={3}>
+        <img src="/img/aulani/iteration1.png" />
+        <img src="/img/aulani/iteration2.png" />
+        <img src="/img/aulani/iteration3.png" />
+        <img src="/img/aulani/iteration4.png" />
+        <img src="/img/aulani/iteration5.png" />
+        <img src="/img/aulani/iteration6.png" />
+      </Bricks>
+    </CaseStudySection>
+
+    <CaseStudySection title="Design">
+      <p>
+        During my design process, I performed user testing to track that my
+        designs aligned with the direction. The testing maintained a 100%
+        success rate and the core usage pattern was “As expected” or “Better
+        than expected” in our post-test surveys. This can be attributed to the
+        major improvements in visual design and how My Plans/My Favorites fit
+        into the Explore tab.
+      </p>
+      <Bricks desktopCols={3}>
+        <img src="/img/aulani/design1.png" />
+        <img src="/img/aulani/design2.png" />
+        <img src="/img/aulani/design3.png" />
+        <img src="/img/aulani/design4.png" />
+        <img src="/img/aulani/design5.png" />
+        <img src="/img/aulani/design6.png" />
+        <img src="/img/aulani/design7.png" />
+        <img src="/img/aulani/design8.png" />
+        <img src="/img/aulani/design9.png" />
+      </Bricks>
+
+      <h2>Restaurant Reservations</h2>
+      <Bricks desktopCols={3}>
+        <img src="/img/aulani/restaurant1.png" />
+        <img src="/img/aulani/restaurant2.png" />
+        <img src="/img/aulani/restaurant3.png" />
+        <img src="/img/aulani/restaurant4.png" />
+        <img src="/img/aulani/restaurant5.png" />
+      </Bricks>
+
+      <h2>Spec Sheet</h2>
+      <p>
+        Design handoff consists of the design spec sheet with detailed
+        interaction notes, and designer/developer pairing.
+      </p>
+      <Bricks desktopCols={1}>
+        <img src="/img/aulani/specs.png" />
+      </Bricks>
+
+      <h2>Result</h2>
+      <p>
+        This feature is currently under development and is set to launch on
+        January 2022. Additional testing among dozens of participants have shown
+        guests are far more able to learn more about events, and are eager to
+        build out their daily itinerary.
+      </p>
+      <p>
+        I am currently working on the v2 of My Plans, including animations,
+        Mobile Food Order, and Mobile Activity Reservations with third party
+        vendors.
+      </p>
+      <p>For more information, please get in touch.</p>
+      <div className="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/8rBhuT3PsXQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </CaseStudySection>
   </CaseStudy>
 );

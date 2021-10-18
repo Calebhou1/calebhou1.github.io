@@ -3,6 +3,7 @@
 $CASE_STUDY_WIDTH: 1080px;
 
 .CaseStudySection {
+  text-align: left;
   position: relative;
   margin: 80px auto;
   max-width: $CASE_STUDY_WIDTH;
@@ -10,15 +11,19 @@ $CASE_STUDY_WIDTH: 1080px;
   .CaseStudy__line {
     box-shadow: 2px 2px 8px #222;
   }
+
+  p {
+    max-width: none;
+    margin: 0 0 30px;
+  }
+
+  h2 {
+    letter-spacing: 0;
+  }
 }
 
 .CaseStudySection__label {
-  position: absolute;
-  padding-bottom: 10px;
-  padding-right: 20px;
-  top: -20px;
-  left: -20px;
-
+  padding-bottom: 20px;
   text-shadow: 2px 2px 8px #222;
   background: transparent;
   z-index: 10;
