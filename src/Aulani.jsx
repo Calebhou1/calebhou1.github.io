@@ -158,8 +158,9 @@ const Aulani = () => (
       <Bricks desktopCols={1}>
         <img src="/img/aulani/specs.png" />
       </Bricks>
+    </CaseStudySection>
 
-      <h2>Result</h2>
+    <CaseStudySection title="Result">
       <p>
         This feature is currently under development and is set to launch on
         January 2022. Additional testing among dozens of participants have shown
