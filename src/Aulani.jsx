@@ -65,12 +65,12 @@ const Aulani = () => (
 
     <CaseStudySection title="CURRENT">
       <p>
-        The app only shows reservation details and the daily activity schedule,
-        but guests are left wanting. The design is dated and users complain
-        about not being able to find more details about the activities aside
-        from the title. Initially, the task for the project was to add an “Add
-        to Plan” button on the schedule page, as well as a “My Plans” tab on the
-        tab bar. Given the state of the design and the user complaints, I saw an
+        The app shows reservation details and the daily activity schedule, but
+        guests are left wanting. The design is dated and users complain about
+        not being able to find more details about the activities aside from the
+        title. Initially, the task for the project was to add an “Add to Plan”
+        button on the schedule page as well as a “My Plans” tab on the tab bar.
+        Given the state of the design and the user complaints, I saw an
         opportunity to polish this app to a Disney level of quality.
       </p>
       <Bricks desktopCols={3}>
@@ -87,16 +87,16 @@ const Aulani = () => (
         <CaseStudyImage src="/img/aulani/workshop.png">
           My PM and I ran a day-long workshop with all the partners to determine
           what we could achieve in our MVP that accomplished the user goals of
-          seeing what activities were available at any time, build their
-          itinerary, and book dining reservations.
+          seeing what activities were available at any time, building their
+          itinerary, and booking dining reservations.
         </CaseStudyImage>
         <CaseStudyImage src="/img/aulani/user stories.png">
-          My PM and I then began to write a long list of user stories,
-          categorized them, and prioritized them for the coming year.
+          My PM and I then categorized and prioritized a long list of user
+          stories for the coming year.
         </CaseStudyImage>
         <CaseStudyImage src="/img/aulani/IA.png">
           The output of the workshop resulted in an Information Architecture in
-          which I mapped out our features for the next year.
+          which I mapped out our features for the future.
         </CaseStudyImage>
       </Bricks>
     </CaseStudySection>
@@ -153,7 +153,7 @@ const Aulani = () => (
       <h2>Spec Sheet</h2>
       <p>
         Design handoff consists of the design spec sheet with detailed
-        interaction notes, and designer/developer pairing.
+        interaction notes and designer/developer pairing.
       </p>
       <Bricks desktopCols={1}>
         <img src="/img/aulani/specs.png" />
@@ -162,10 +162,10 @@ const Aulani = () => (
 
     <CaseStudySection title="Result">
       <p>
-        This feature is currently under development and is set to launch on
+        This feature is currently under development and is set to launch in
         January 2022. Additional testing among dozens of participants have shown
-        guests are far more able to learn more about events, and are eager to
-        build out their daily itinerary.
+        guests are better able to learn about events and are eager to build out
+        their daily itinerary.
       </p>
       <p>
         I am currently working on the v2 of My Plans, including animations,
