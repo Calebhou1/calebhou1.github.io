@@ -14,7 +14,7 @@ export default () => (
         design problems.
       </p>
       <p>
-        In my career of 9 years, I’ve worked on a wide variety of projects
+        In my career of 10 years, I’ve worked on a wide variety of projects
         including mobile games, apps for Disney World, and websites for
         non-profit organizations. Across all these projects, my ultimate goal
         has remained the same: to bring enjoyment to users. In my current

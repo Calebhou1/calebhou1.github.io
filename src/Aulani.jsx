@@ -40,7 +40,7 @@ const Aulani = () => (
           value="UX design, Visual design, Illustration"
         />
         <CaseStudyStat label="DURATION" value="9 weeks" />
-        <CaseStudyStat label="TEAM" value="1 Design, 7 Dev, 1 PM" />
+        <CaseStudyStat label="TEAM" value="3 Design, 7 Dev, 1 PM" />
       </div>
     </FadeIn>
 
@@ -85,18 +85,20 @@ const Aulani = () => (
     <CaseStudySection title="Workshop">
       <Bricks desktopCols={1}>
         <CaseStudyImage src="/img/aulani/workshop.png">
-          My PM and I ran a day-long workshop with all the partners to determine
-          what we could achieve in our MVP that accomplished the user goals of
-          seeing what activities were available at any time, building their
-          itinerary, and booking dining reservations.
+          My team and I designed and ran a day-long workshop with all the
+          partners to determine what we could achieve in our MVP that
+          accomplished the user goals of seeing what activities were available
+          at any time, building their itinerary, and booking dining
+          reservations.
         </CaseStudyImage>
         <CaseStudyImage src="/img/aulani/user stories.png">
-          My PM and I then categorized and prioritized a long list of user
-          stories for the coming year.
+          My PM and I then categorized and prioritized a list of user stories
+          for the coming year. I managed expectations by scoping out each ticket
+          and assigned them accordingly to my design team.
         </CaseStudyImage>
         <CaseStudyImage src="/img/aulani/IA.png">
           The output of the workshop resulted in an Information Architecture in
-          which I mapped out our features for the future.
+          which we mapped out our strategy for the future.
         </CaseStudyImage>
       </Bricks>
     </CaseStudySection>
@@ -122,12 +124,12 @@ const Aulani = () => (
 
     <CaseStudySection title="Design">
       <p>
-        During my design process, I performed user testing to track that my
-        designs aligned with the direction. The testing maintained a 100%
-        success rate and the core usage pattern was “As expected” or “Better
-        than expected” in our post-test surveys. This can be attributed to the
-        major improvements in visual design and how My Plans/My Favorites fit
-        into the Explore tab.
+        During the design process, we ran tests to ensure that designs aligned
+        with our initial strategy. The testing maintained a 100% success rate
+        and the core usage pattern was “As expected” or “Better than expected”
+        in our post-test surveys. This can be attributed to the major
+        improvements in visual design and how My Plans/My Favorites fit into the
+        Explore tab.
       </p>
       <Bricks desktopCols={3}>
         <img src="/img/aulani/design1.png" />
@@ -162,15 +164,16 @@ const Aulani = () => (
 
     <CaseStudySection title="Result">
       <p>
-        This feature is currently under development and is set to launch in
-        January 2022. Additional testing among dozens of participants have shown
-        guests are better able to learn about events and are eager to build out
-        their daily itinerary.
+        This feature is currently under development and is set to launch in Q3
+        2022. Additional testing among dozens of participants have shown guests
+        are better able to learn about events and are eager to build out their
+        daily itinerary.
       </p>
       <p>
-        I am currently working on the v2 of My Plans, including animations,
-        Mobile Food Order, and Mobile Activity Reservations with third party
-        vendors.
+        My team and I are currently working on the v2 of My Plans to include
+        animations, Mobile Food Ordering, and Mobile Activity Reservations with
+        third party vendors. Additionally, we are working on adding an digital
+        play tool to the “Menehune Adventure Trail.”
       </p>
       <p>For more information, please get in touch.</p>
       <div className="video-container">

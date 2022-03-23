@@ -20,11 +20,15 @@ const DisneyCruiseLines = () => (
     <FadeIn>
       <p>
         During Covid-19, Disney Cruise Lines were forced to halt all sailings.
-        During this down-time, we began to ideate on ways to make the cruise
+        During this down-time, we began to think of ways to make the cruise
         ships more accessible and respectful of social-distancing policies. This
         project’s focus was aimed at improving the guest experience by making
         food ordering more streamlined, reducing wait times, and preventing
         crowding.
+      </p>
+      <p>
+        My vision for this project was to create a feature that allows for
+        guests to enjoy a well-earned vacation and stay safe while doing so.
       </p>
     </FadeIn>
     <FadeIn>
@@ -35,17 +39,17 @@ const DisneyCruiseLines = () => (
       <div className="CaseStudy__stats">
         <CaseStudyStat label="MY ROLE" value="UX design, Visual design" />
         <CaseStudyStat label="DURATION" value="9 weeks" />
-        <CaseStudyStat label="TEAM" value="2 Design, 7 Dev, 1 PM" />
+        <CaseStudyStat label="TEAM" value="3 Design, 7 Dev, 1 PM" />
       </div>
     </FadeIn>
 
     <CaseStudySection title="Situation">
       <p>
-        To prevent crowding on cruise ships during the pandemic, we focused on
-        the highest-traffic areas. We aimed to provide a way for users to order
-        their food on their phones to reduce lines at the food/drink venues.
-        This interface would also alleviate the number of calls the concierge
-        takes daily.
+        To prevent crowding on cruise ships during the pandemic, my team and I
+        focused on reducing traffic in the busiest areas on deck. We aimed to
+        provide a way for users to order their food on their phones to reduce
+        lines at the food/drink venues. This interface would also alleviate the
+        number of calls the concierge takes daily.
       </p>
       <img src="/img/disneycruise/situation1.jpeg" />
       <h2>Goals</h2>
@@ -71,9 +75,9 @@ const DisneyCruiseLines = () => (
 
     <CaseStudySection title="Workshop">
       <p>
-        I ran a 2-day digital workshop with my partners to create journey maps
-        for both guests and crew members for 2 scenarios: in-person pickup and
-        room service.
+        My team and I designed and ran a 2-day virtual workshop with our
+        partners to create journey maps for both guests and crew members for 2
+        scenarios: in-person pickup and room service.
       </p>
       <Bricks desktopCols={3}>
         <img src="/img/disneycruise/workshop1.png" />
@@ -91,10 +95,9 @@ const DisneyCruiseLines = () => (
 
     <CaseStudySection title="Wires">
       <p>
-        While wireframing, I frequently tested my flows to ensure that my
-        designs met guest and crew member expectations. I incorporated the
-        responses from the tests to meet the expected standard of Disney
-        experiences.
+        We frequently tested our flows to ensure that my designs met guest and
+        crew member expectations. My team and I then incorporated the responses
+        from the tests to meet the standard of Disney experiences.
       </p>
       <div className="video-container">
         <iframe
@@ -121,8 +124,8 @@ const DisneyCruiseLines = () => (
         The Disney Cruise Line app has a well established visual style that is
         heavily reliant on colorful imagery and animated illustrations. While
         the food and beverage customization features have a more utilitarian
-        design, I wanted to create a more lively experience using animations and
-        bright colors in the post-confirmation flow.
+        design, I wanted us to create a more lively experience using animations
+        and bright colors in the post-confirmation flow.
       </p>
       <Bricks desktopCols={3}>
         <img src="/img/disneycruise/design1.png" />
@@ -132,7 +135,7 @@ const DisneyCruiseLines = () => (
       </Bricks>
       <h2>Customization</h2>
       <p>
-        My designs responded to research that revealed the necessity for food
+        The designs responded to research that revealed the necessity for food
         and beverage customization by providing advanced customizable options
         including specialty items and nutritional accommodations.
       </p>
@@ -149,12 +152,11 @@ const DisneyCruiseLines = () => (
     <CaseStudySection title="Testing">
       <p>
         Testing was focused around Pick Up, Room Service, and Up-sell Offerings
-        to 2 dozen users. I conducted bi-weekly tests through the wireframe and
-        design phase, using moderated usability testing and A/B preference
-        testing. I received consistent positive feedback on the value
-        proposition and the design and used the suggestions to pivot some
-        designs such as the Up-sells to patterns that users were more familiar
-        with.
+        to 2 dozen users. My team conducted bi-weekly tests through the
+        wireframe and design phase, using moderated usability testing and A/B
+        preference testing. We received consistent positive feedback on the
+        value proposition and the design and I used the data to pivot the team’s
+        design direction where necessary.
       </p>
       <div className="video-container">
         <iframe
@@ -182,12 +184,12 @@ const DisneyCruiseLines = () => (
 
     <CaseStudySection title="Release">
       <p>
-        The Mobile Order feature is set to release in the Summer of 2022,
-        coinciding with the maiden voyage of the Disney Wish. The feature has
-        been thoroughly tested among crew members who look forward to offering
-        this service with no disruption to their daily routine. Based on our
-        testing, guests are excited to use this unique feature to enhance their
-        Disney cruise experience, as other cruises do not offer this
+        The Mobile Order feature is set to release in Q3 of 2022, coinciding
+        with the maiden voyage of the Disney Wish. The feature has been tested
+        among crew members who look forward to offering this service with no
+        disruption to their daily routine. Based on our testing, guests are
+        excited to use this unique feature to enhance their Disney cruise
+        experience, as other cruises do not offer this convenience.
       </p>
       <p>For more information, please get in touch.</p>
     </CaseStudySection>
