@@ -11,11 +11,13 @@ const Disney = () => (
     subtitle="WEB REDESIGN"
     background="/img/disney/background.png"
     backgroundStyle="CaseStudy__hero-disney"
-    device=<img
-      className="CaseStudy__device"
-      src="/img/disney/device.png"
-      alt="Laptop with Disney website on screen"
-    />
+    device={
+      <img
+        className="CaseStudy__device"
+        src="/img/disney/device.png"
+        alt="Laptop with Disney website on screen"
+      />
+    }
   >
     <FadeIn>
       <p>

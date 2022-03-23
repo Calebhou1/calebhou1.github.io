@@ -12,11 +12,13 @@ const Aulani = () => (
     title="Aulani"
     subtitle="APP FEATURE - MY PLANS"
     background="/img/aulani/background_dim.jpg"
-    device=<img
-      className="CaseStudy__device CaseStudy__device-aulani"
-      src="/img/aulani/device.png"
-      alt="Phone with Aulani app mockup"
-    />
+    device={
+      <img
+        className="CaseStudy__device CaseStudy__device-aulani"
+        src="/img/aulani/device.png"
+        alt="Phone with Aulani app mockup"
+      />
+    }
   >
     <FadeIn>
       <p>

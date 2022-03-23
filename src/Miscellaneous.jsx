@@ -8,11 +8,13 @@ const Miscellaneous = () => (
   <CaseStudy
     title="Miscellaneous"
     subtitle="SIDE PROJECTS"
-    device=<img
-      className="CaseStudy__device CaseStudy__device-misc"
-      src="/img/misc/device - miscellaneous@2x.png"
-      alt="Smartphone with Panda Express Webpage"
-    />
+    device={
+      <img
+        className="CaseStudy__device CaseStudy__device-misc"
+        src="/img/misc/device - miscellaneous@2x.png"
+        alt="Smartphone with Panda Express Webpage"
+      />
+    }
     deviceStyle="CaseStudy__device-dh"
     background="/img/misc/header - miscellaneous@2x.png"
   >

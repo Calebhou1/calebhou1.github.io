@@ -9,11 +9,13 @@ const BestBuy = () => (
   <CaseStudy
     title="Best Buy Home"
     subtitle="APP"
-    device=<img
-      className="CaseStudy__device CaseStudy__device-bby"
-      src="/img/bby/device.png"
-      alt="Smartphone with Best Buy website on screen"
-    />
+    device={
+      <img
+        className="CaseStudy__device CaseStudy__device-bby"
+        src="/img/bby/device.png"
+        alt="Smartphone with Best Buy website on screen"
+      />
+    }
     background="/img/bby/background.jpg"
   >
     <FadeIn>

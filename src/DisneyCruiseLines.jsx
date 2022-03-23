@@ -12,11 +12,13 @@ const DisneyCruiseLines = () => (
     subtitle="APP FEATURE - MOBILE ORDER"
     background="/img/disneycruise/background_dim.png"
     backgroundStyle="CaseStudy__hero-disneycruise"
-    device=<img
-      className="CaseStudy__device CaseStudy__device-disneycruise"
-      src="/img/disneycruise/device.png"
-      alt="Phone with Disney Cruise Lines app mockup"
-    />
+    device={
+      <img
+        className="CaseStudy__device CaseStudy__device-disneycruise"
+        src="/img/disneycruise/device.png"
+        alt="Phone with Disney Cruise Lines app mockup"
+      />
+    }
   >
     <FadeIn>
       <p>
