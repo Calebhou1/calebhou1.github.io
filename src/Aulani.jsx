@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Bricks from "./components/Bricks";
 import CaseStudy from "./components/CaseStudy";
 import CaseStudyImage from "./components/CaseStudyImage";
@@ -186,6 +187,13 @@ const Aulani = () => (
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+      </div>
+    </CaseStudySection>
+
+    <CaseStudySection>
+      <h2 className="sectionTitle">MORE WORK</h2>
+      <div className="CaseStudy__more-links">
+        <Link to="/disney-cruise-hidden">Disney Cruise Lines</Link>
       </div>
     </CaseStudySection>
   </CaseStudy>

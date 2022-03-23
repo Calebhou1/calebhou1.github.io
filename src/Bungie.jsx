@@ -99,15 +99,17 @@ export default () => (
       caption="Usability test plan along with desired metrics."
     />
 
-    <h2>More work</h2>
-    <a
-      href="/Hou, Caleb - Bungie UX Design Test.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Destiny Finishers
-    </a>
-    <Link to="/aulani-hidden">Aualani</Link>
-    <Link to="/disney-cruise-hidden">Disney Cruise Lines</Link>
+    <h2 className="sectionTitle">MORE WORK</h2>
+    <div className="CaseStudy__more-links">
+      <a
+        href="/Hou, Caleb - Bungie UX Design Test.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Destiny Finishers
+      </a>
+      <Link to="/aulani-hidden">Aulani</Link>
+      <Link to="/disney-cruise-hidden">Disney Cruise Lines</Link>
+    </div>
   </div>
 );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Bricks from "./components/Bricks";
 import CaseStudy from "./components/CaseStudy";
 import CaseStudyStat from "./components/CaseStudyStat";
@@ -192,6 +193,13 @@ const DisneyCruiseLines = () => (
         experience, as other cruises do not offer this convenience.
       </p>
       <p>For more information, please get in touch.</p>
+    </CaseStudySection>
+
+    <CaseStudySection>
+      <h2 className="sectionTitle">MORE WORK</h2>
+      <div className="CaseStudy__more-links">
+        <Link to="/aulani-hidden">Aulani</Link>
+      </div>
     </CaseStudySection>
   </CaseStudy>
 );
