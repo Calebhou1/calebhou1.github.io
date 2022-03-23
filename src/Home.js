@@ -204,7 +204,7 @@ const Home = () => {
           <FadeIn>
             <a
               className="download button button-borderless"
-              href="/Caleb_resume_2020.pdf"
+              href="/Caleb_resume_2022.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
