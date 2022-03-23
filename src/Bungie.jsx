@@ -1,5 +1,6 @@
 import React from "react";
 import BungieImage from "./components/BungieImage";
+import { Link } from "react-router-dom";
 import "./css/Bungie.scss";
 
 export default () => (
@@ -97,5 +98,16 @@ export default () => (
       src="/img/bungie/17 - Usability test plan along with desired metrics..png"
       caption="Usability test plan along with desired metrics."
     />
+
+    <h2>More work</h2>
+    <a
+      href="/Hou, Caleb - Bungie UX Design Test.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Destiny Finishers
+    </a>
+    <Link to="/aulani-hidden">Aualani</Link>
+    <Link to="/disney-cruise-hidden">Disney Cruise Lines</Link>
   </div>
 );
