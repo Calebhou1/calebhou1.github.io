@@ -211,5 +211,9 @@ a.CaseStudy__back {
   a { // these styles are cribbed from homepage "my-work" section. TODO: mixin
     display: block;
     padding: 10px 0;
+    font-size: 40px;
+    @media only screen and (min-width: 768px) {
+      font-size: 40px;
+    }
   }
 }
