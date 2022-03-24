@@ -68,3 +68,31 @@ button, .button {
   transform: none;
   visibility: visible;
 }
+
+$link-translucent: rgba(255, 255, 255, 0.4);
+$link-full: white;
+
+
+@mixin hovery-link {
+  a {
+    font-size: 40px;
+    font-weight: $extra-bold;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, $link-full, $link-full 50%, $link-translucent 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 80px;
+    }
+  }
+
+  a:hover {
+    transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+  }
+}

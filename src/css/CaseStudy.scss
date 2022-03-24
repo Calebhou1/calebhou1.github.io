@@ -206,18 +206,10 @@ a.CaseStudy__back {
 }
 
 .CaseStudy__more-links {
+  @include hovery-link;
   padding-bottom: 100px;
   a { // these styles are cribbed from homepage "my-work" section. TODO: mixin
     display: block;
-    font-size: 40px;
-    font-weight: $extra-bold;
-    text-decoration: none;
-    transition: 0.4s;
-    cursor: pointer;
-    background-clip: text;
-    background-size: 200% 100%;
-    background-position: 100%;
-    color: rgba(255, 255, 255, 0.5);
     padding: 10px 0;
   }
 }
