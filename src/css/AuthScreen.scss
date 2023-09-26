@@ -23,6 +23,7 @@
 
 .AuthScreen form {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -31,8 +32,8 @@
   background: transparent;
   color: white;
 
+  height: 40px;
   padding: 5px;
-  margin: 5px;
 
   &:focus {
     border-color: white;
@@ -41,7 +42,8 @@
 }
 
 .AuthScreen [type="password"] {
-  width: 500px;
+  width: 400px;
+  margin-right: 10px;
 }
 
 .AuthScreen [type="submit"] {
@@ -49,6 +51,11 @@
   padding: 10px 40px;
 }
 
-.AuthScreen .error {
+.AuthScreen .error, .AuthScreen .error:focus {
   border-color: $error-red;
+}
+
+.AuthScreen__errormsg {
+  color: $error-red;
+  font-size: 12px;
 }

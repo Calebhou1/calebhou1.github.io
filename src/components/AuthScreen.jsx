@@ -29,14 +29,19 @@ const AuthScreen = ({ onAuth }) => {
           <p>Please contact me for the password to view this case study.</p>
         </div>
         <form onSubmit={checkPassword}>
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            value={password}
-            className={errorState ? "error" : ""}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+          <div>
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              value={password}
+              className={errorState ? "error" : ""}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            {errorState ? (
+              <p className="AuthScreen__errormsg">Incorrect password</p>
+            ) : null}
+          </div>
           <input type="submit" value="ENTER" />
         </form>
       </div>
