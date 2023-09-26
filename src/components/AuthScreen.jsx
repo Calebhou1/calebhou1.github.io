@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../css/AuthScreen.scss";
 
 const CORRECT_PASSWORD = "calebhouportfolio";
@@ -18,19 +19,27 @@ const AuthScreen = ({ onAuth }) => {
   };
 
   return (
-    <div>
-      <h3>Password Required</h3>
-      <p>Please contact me for the password to view this case study</p>
-      <form onSubmit={checkPassword}>
-        <input
-          type="password"
-          name="password"
-          value={password}
-          className={errorState ? "error" : ""}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <input type="submit" value="Enter" />
-      </form>
+    <div className="AuthScreen__container">
+      <Link to="/" className="back button">
+        BACK
+      </Link>
+      <div className="AuthScreen">
+        <div className="AuthScreen__header">
+          <h3 className="AuthScreen__title">PASSWORD REQUIRED</h3>
+          <p>Please contact me for the password to view this case study.</p>
+        </div>
+        <form onSubmit={checkPassword}>
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            value={password}
+            className={errorState ? "error" : ""}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <input type="submit" value="ENTER" />
+        </form>
+      </div>
     </div>
   );
 };

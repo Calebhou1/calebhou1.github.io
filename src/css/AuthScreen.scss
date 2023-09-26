@@ -1,3 +1,54 @@
-.error {
-  border: 1px solid red;
+@import "./globals.scss";
+
+.AuthScreen__container {
+  padding: 0 44px;
+}
+
+.AuthScreen {
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AuthScreen__header {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.AuthScreen__title {
+  color: $yellow;
+}
+
+.AuthScreen form {
+  display: flex;
+  justify-content: center;
+}
+
+.AuthScreen input {
+  border: 2px solid $dark-gray;
+  background: transparent;
+  color: white;
+
+  padding: 5px;
+  margin: 5px;
+
+  &:focus {
+    border-color: white;
+    outline-width: 0;
+  }
+}
+
+.AuthScreen [type="password"] {
+  width: 500px;
+}
+
+.AuthScreen [type="submit"] {
+  border-color: $yellow;
+  padding: 10px 40px;
+}
+
+.AuthScreen .error {
+  border-color: $error-red;
 }

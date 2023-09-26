@@ -18,16 +18,7 @@ const CaseStudy = ({
   const [authenticated, setAuthenticated] = useState(false);
 
   if (!authenticated) {
-    return (
-      <div className="CaseStudy">
-        <div className="CaseStudy__hero">
-          <Link to="/" className="CaseStudy__back button">
-            BACK
-          </Link>
-        </div>
-        <AuthScreen onAuth={() => setAuthenticated(true)} />
-      </div>
-    );
+    return <AuthScreen onAuth={() => setAuthenticated(true)} />;
   }
 
   return (
@@ -36,7 +27,7 @@ const CaseStudy = ({
         className={"CaseStudy__hero " + backgroundStyle}
         style={{ backgroundImage: `url("${background}")` }}
       >
-        <Link to="/" className="CaseStudy__back button">
+        <Link to="/" className="back button">
           BACK
         </Link>
         <h1>{title}</h1>
