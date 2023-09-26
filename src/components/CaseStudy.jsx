@@ -18,7 +18,16 @@ const CaseStudy = ({
   const [authenticated, setAuthenticated] = useState(false);
 
   if (!authenticated) {
-    return <AuthScreen onAuth={() => setAuthenticated(true)} />;
+    return (
+      <div className="CaseStudy">
+        <div className="CaseStudy__hero">
+          <Link to="/" className="CaseStudy__back button">
+            BACK
+          </Link>
+        </div>
+        <AuthScreen onAuth={() => setAuthenticated(true)} />
+      </div>
+    );
   }
 
   return (
