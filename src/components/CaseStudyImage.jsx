@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import "../css/CaseStudyImage.scss";
 
 const CaseStudyImage = ({ src, alt, children }) => (

@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
 import Disney from "./Disney";
@@ -17,47 +17,35 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <ScrollToTop />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/disney">
-          <DisneyUnlisted />
-        </Route>
-        <Route exact path="/disney-unlisted-caleb-portfolio">
-          <Disney />
-        </Route>
-        <Route exact path="/aulani">
-          <AulaniUnlisted />
-        </Route>
-        <Route exact path="/disney-cruise">
-          <DisneyCruiseLinesUnlisted />
-        </Route>
-        <Route exact path="/aulani-hidden">
-          <Aulani />
-        </Route>
-        <Route exact path="/disney-cruise-hidden">
-          <DisneyCruiseLines />
-        </Route>
-        <Route exact path="/bestbuy">
-          <BestBuyUnlisted />
-        </Route>
-        <Route exact path="/bestbuy-unlisted-2020">
-          <BestBuy />
-        </Route>
-        <Route exact path="/dungeon-highway">
-          <DungeonHighway />
-        </Route>
-        <Route exact path="/miscellaneous">
-          <Miscellaneous />
-        </Route>
-        <Route exact path="/bungie">
-          <Bungie />
-        </Route>
-      </Switch>
-    </Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/disney" element={<DisneyUnlisted />} />
+        <Route
+          exact
+          path="/disney-unlisted-caleb-portfolio"
+          element={<Disney />}
+        />
+        <Route exact path="/aulani" element={<AulaniUnlisted />} />
+        <Route
+          exact
+          path="/disney-cruise"
+          element={<DisneyCruiseLinesUnlisted />}
+        />
+        <Route exact path="/aulani-hidden" element={<Aulani />} />
+        <Route
+          exact
+          path="/disney-cruise-hidden"
+          element={<DisneyCruiseLines />}
+        />
+        <Route exact path="/bestbuy" element={<BestBuyUnlisted />} />
+        <Route exact path="/bestbuy-unlisted-2020" element={<BestBuy />} />
+        <Route exact path="/dungeon-highway" element={<DungeonHighway />} />
+        <Route exact path="/miscellaneous" element={<Miscellaneous />} />
+        <Route exact path="/bungie" element={<Bungie />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
