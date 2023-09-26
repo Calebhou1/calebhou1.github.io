@@ -23,8 +23,12 @@
 
 .AuthScreen form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .AuthScreen input {
@@ -42,13 +46,22 @@
 }
 
 .AuthScreen [type="password"] {
-  width: 400px;
   margin-right: 10px;
+  width: 100%;
+
+  @media only screen and (min-width: 768px) {
+    width: 400px;
+  }
 }
 
 .AuthScreen [type="submit"] {
   border-color: $yellow;
   padding: 10px 40px;
+  margin-top: 15px;
+
+  @media only screen and (min-width: 768px) {
+    margin-top: 0;
+  }
 }
 
 .AuthScreen .error, .AuthScreen .error:focus {
