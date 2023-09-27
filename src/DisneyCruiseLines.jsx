@@ -200,7 +200,7 @@ const DisneyCruiseLines = () => (
     <CaseStudySection>
       <h2 className="sectionTitle">MORE WORK</h2>
       <div className="CaseStudy__more-links">
-        <Link to="/aulani-hidden">Aulani</Link>
+        <Link to="/aulani">Aulani</Link>
       </div>
     </CaseStudySection>
   </CaseStudy>

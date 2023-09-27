@@ -108,8 +108,8 @@ export default () => (
       >
         Destiny Finishers
       </a>
-      <Link to="/aulani-hidden">Aulani</Link>
-      <Link to="/disney-cruise-hidden">Disney Cruise Lines</Link>
+      <Link to="/aulani">Aulani</Link>
+      <Link to="/disney">Disney Cruise Lines</Link>
     </div>
   </div>
 );

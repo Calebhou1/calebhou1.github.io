@@ -195,7 +195,7 @@ const Aulani = () => (
     <CaseStudySection>
       <h2 className="sectionTitle">MORE WORK</h2>
       <div className="CaseStudy__more-links">
-        <Link to="/disney-cruise-hidden">Disney Cruise Lines</Link>
+        <Link to="/disney">Disney Cruise Lines</Link>
       </div>
     </CaseStudySection>
   </CaseStudy>
