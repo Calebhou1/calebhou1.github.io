@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
 import Disney from "./Disney";
@@ -13,7 +13,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/miscellaneous" element={<Miscellaneous />} />
         <Route exact path="/bungie" element={<Bungie />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
