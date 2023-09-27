@@ -1,6 +1,7 @@
-import React, { Children } from "react";
+import React, { Children, useState } from "react";
 import cx from "classnames";
 import { Link } from "react-router-dom";
+import AuthScreen from "./AuthScreen";
 import FadeIn from "./FadeIn";
 import "../css/CaseStudy.scss";
 
@@ -14,13 +15,19 @@ const CaseStudy = ({
   deviceSpacerStyle,
   children,
 }) => {
+  const [authenticated, setAuthenticated] = useState(false);
+
+  if (!authenticated) {
+    return <AuthScreen onAuth={() => setAuthenticated(true)} />;
+  }
+
   return (
     <div className="CaseStudy">
       <div
         className={"CaseStudy__hero " + backgroundStyle}
         style={{ backgroundImage: `url("${background}")` }}
       >
-        <Link to="/" className="CaseStudy__back button">
+        <Link to="/" className="back button">
           BACK
         </Link>
         <h1>{title}</h1>

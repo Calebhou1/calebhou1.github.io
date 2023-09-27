@@ -9,6 +9,8 @@ $extra-bold: 800;
 $black: #1e1e1e;
 $yellow: #faaf40;
 $light-gray: #cecece;
+$dark-gray: #787878;
+$error-red: #ff1e1e;
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -47,6 +49,21 @@ button, .button {
   &.button-borderless {
     border-color: transparent;
   }
+}
+
+// back button
+a.back {
+  padding: 24px 0 0;
+  border: none;
+  float: left;
+  text-align: left;
+  display: block;
+
+  color: white;
+  text-decoration: none;
+  font-weight: $bold;
+  letter-spacing: 2px;
+  z-index: 100;
 }
 
 // fade animating

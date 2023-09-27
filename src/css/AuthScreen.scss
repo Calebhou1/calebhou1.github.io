@@ -1,0 +1,73 @@
+@import "./globals.scss";
+
+.AuthScreen__container {
+  padding: 0 44px;
+}
+
+.AuthScreen {
+  color: white;
+  padding-top: 20vh;
+  clear: both;
+
+}
+
+.AuthScreen__header {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.AuthScreen__title {
+  color: $yellow;
+}
+
+.AuthScreen form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.AuthScreen input {
+  border: 2px solid $dark-gray;
+  background: transparent;
+  color: white;
+
+  height: 40px;
+  padding: 5px;
+
+  &:focus {
+    border-color: white;
+    outline-width: 0;
+  }
+}
+
+.AuthScreen [type="password"] {
+  margin-right: 10px;
+  width: 100%;
+
+  @media only screen and (min-width: 768px) {
+    width: 400px;
+  }
+}
+
+.AuthScreen [type="submit"] {
+  border-color: $yellow;
+  padding: 10px 40px;
+  margin-top: 15px;
+
+  @media only screen and (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+
+.AuthScreen .error, .AuthScreen .error:focus {
+  border-color: $error-red;
+}
+
+.AuthScreen__errormsg {
+  color: $error-red;
+  font-size: 12px;
+}
