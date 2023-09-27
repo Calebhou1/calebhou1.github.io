@@ -42,7 +42,7 @@ const AuthScreen = ({ onAuth }) => {
               <p className="AuthScreen__errormsg">Incorrect password</p>
             ) : null}
           </div>
-          <input type="submit" value="ENTER" />
+          <input type="submit" className="button button-yellow" value="ENTER" />
         </form>
       </div>
     </div>
