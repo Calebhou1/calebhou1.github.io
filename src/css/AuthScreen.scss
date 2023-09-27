@@ -6,11 +6,9 @@
 
 .AuthScreen {
   color: white;
-  height: 100vh;
+  padding-top: 20vh;
   clear: both;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
 }
 
 .AuthScreen__header {
